@@ -1,0 +1,108 @@
+{
+    "app_info": {
+        "App Name": "Pint Please Beer Tracker17+",
+        "App Category": "Food & Drink",
+        "URL": "https://apps.apple.com/us/app/pint-please-beer-tracker/id833522363",
+        "App ID": 833522363,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 21,
+        "Offers In-App Purchases": true,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ]
+        },
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "User Content": [
+                "Customer Support"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Customer Support"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

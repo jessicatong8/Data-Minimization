@@ -1,0 +1,73 @@
+{
+    "app_info": {
+        "App Name": "Mont Tremblant4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/mont-tremblant/id1644731149",
+        "App ID": 1644731149,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 345,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Location",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Purchases": [
+                "Purchase History"
+            ]
+        },
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

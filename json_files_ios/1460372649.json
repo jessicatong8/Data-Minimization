@@ -1,0 +1,65 @@
+{
+    "app_info": {
+        "App Name": "EMCE12+",
+        "App Category": "Education",
+        "URL": "https://apps.apple.com/us/app/emce/id1460372649",
+        "App ID": 1460372649,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 1,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "User Content": [
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

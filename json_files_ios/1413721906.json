@@ -1,0 +1,132 @@
+{
+    "app_info": {
+        "App Name": "FanDuel Sportsbook & Casino17+",
+        "App Category": "Sports",
+        "URL": "https://apps.apple.com/us/app/fanduel-sportsbook-casino/id1413721906",
+        "App ID": 1413721906,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 1000000,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location",
+            "Contact Info",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Financial Info",
+            "Location",
+            "Contact Info",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "Product Personalization": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Other Financial Info"
+            ],
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number",
+                "Other User Contact Info"
+            ]
+        }
+    },
+    "data_not_linked": {},
+    "data_track": {
+        "Location": [
+            "Coarse Location"
+        ],
+        "Contact Info": [
+            "Email Address",
+            "Name"
+        ],
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Product Interaction",
+            "Advertising Data"
+        ]
+    }
+}

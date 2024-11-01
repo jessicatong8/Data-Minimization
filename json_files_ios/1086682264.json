@@ -1,0 +1,68 @@
+{
+    "app_info": {
+        "App Name": "iDB app4+",
+        "App Category": "News",
+        "URL": "https://apps.apple.com/us/app/idb-app/id1086682264",
+        "App ID": 1086682264,
+        "Price": "Free",
+        "App Rating": 3.9,
+        "No. of Ratings": 71,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {},
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Coarse Location"
+        ],
+        "Identifiers": [
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Advertising Data"
+        ],
+        "Diagnostics": [
+            "Performance Data"
+        ]
+    }
+}

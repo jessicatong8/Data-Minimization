@@ -1,0 +1,136 @@
+{
+    "app_info": {
+        "App Name": "Morpheus AI9+",
+        "App Category": "Graphics & Design",
+        "URL": "https://apps.apple.com/us/app/morpheus-ai/id1666909924",
+        "App ID": 1666909924,
+        "Price": "Free",
+        "App Rating": 0.0,
+        "No. of Ratings": 0,
+        "Offers In-App Purchases": true,
+        "Age Rating": "9+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ]
+        },
+        "Product Personalization": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Other User Content"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Contact Info": [
+            "Email Address"
+        ],
+        "Identifiers": [
+            "User ID"
+        ]
+    }
+}

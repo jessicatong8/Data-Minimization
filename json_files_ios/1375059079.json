@@ -1,0 +1,51 @@
+{
+    "app_info": {
+        "App Name": "GolfPS4+",
+        "App Category": "Sports",
+        "URL": "https://apps.apple.com/us/app/golfps/id1375059079",
+        "App ID": 1375059079,
+        "Price": "Free",
+        "App Rating": 0.0,
+        "No. of Ratings": 0,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

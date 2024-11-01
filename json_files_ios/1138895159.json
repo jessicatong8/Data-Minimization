@@ -1,0 +1,109 @@
+{
+    "app_info": {
+        "App Name": "Premier League - Official App12+",
+        "App Category": "Sports",
+        "URL": "https://apps.apple.com/us/app/premier-league-official-app/id1138895159",
+        "App ID": 1138895159,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 204700,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Gameplay Content"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "User Content": [
+                "Gameplay Content"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Product Interaction",
+            "Advertising Data"
+        ]
+    }
+}

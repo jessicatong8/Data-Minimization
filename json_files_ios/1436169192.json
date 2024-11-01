@@ -1,0 +1,97 @@
+{
+    "app_info": {
+        "App Name": "The Independent: Breaking News12+",
+        "App Category": "News",
+        "URL": "https://apps.apple.com/us/app/the-independent-breaking-news/id1436169192",
+        "App ID": 1436169192,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 201,
+        "Offers In-App Purchases": true,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Location",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Search History",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Search History": [
+                "Search History"
+            ],
+            "Usage Data": [
+                "Advertising Data",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Search History": [
+                "Search History"
+            ],
+            "Usage Data": [
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

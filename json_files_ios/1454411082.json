@@ -1,0 +1,115 @@
+{
+    "app_info": {
+        "App Name": "Fortune Teller - Psychic House4+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/fortune-teller-psychic-house/id1454411082",
+        "App ID": 1454411082,
+        "Price": "Free",
+        "App Rating": 4.2,
+        "No. of Ratings": 28,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "User Content": [
+                "Customer Support"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Name"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID"
+        ]
+    }
+}

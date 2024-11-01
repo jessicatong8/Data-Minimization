@@ -1,0 +1,69 @@
+{
+    "app_info": {
+        "App Name": "Southern Standard4+",
+        "App Category": "News",
+        "URL": "https://apps.apple.com/us/app/southern-standard/id1526361329",
+        "App ID": 1526361329,
+        "Price": "Free",
+        "App Rating": 0.0,
+        "No. of Ratings": 0,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Physical Address",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Developer's Advertising or Marketing": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Customer Support"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

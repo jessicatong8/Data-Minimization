@@ -1,0 +1,90 @@
+{
+    "app_info": {
+        "App Name": "Elektra Money Transfer4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/elektra-money-transfer/id1557184440",
+        "App ID": 1557184440,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 161,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Contact Info"
+        ],
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address"
+            ]
+        },
+        "Analytics": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number",
+                "Other User Contact Info"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Contact Info": [
+            "Email Address"
+        ]
+    }
+}

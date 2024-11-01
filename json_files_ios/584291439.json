@@ -1,0 +1,80 @@
+{
+    "app_info": {
+        "App Name": "Yandex Translate17+",
+        "App Category": "Reference",
+        "URL": "https://apps.apple.com/us/app/yandex-translate/id584291439",
+        "App ID": 584291439,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 3700,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics",
+            "Other Data"
+        ],
+        "Data Not Linked to You": [
+            "Location"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ]
+        }
+    },
+    "data_track": {
+        "Contact Info": [
+            "Email Address",
+            "Phone Number"
+        ],
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ]
+    }
+}

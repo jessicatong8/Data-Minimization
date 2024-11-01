@@ -1,0 +1,70 @@
+{
+    "app_info": {
+        "App Name": "Hear My Baby Heartbeat App4+",
+        "App Category": "Medical",
+        "URL": "https://apps.apple.com/us/app/hear-my-baby-heartbeat-app/id1111420122",
+        "App ID": 1111420122,
+        "Price": "$5.99",
+        "App Rating": 3.9,
+        "No. of Ratings": 6800,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Contact Info",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Contact Info": [
+            "Email Address",
+            "Name"
+        ],
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Product Interaction"
+        ]
+    }
+}

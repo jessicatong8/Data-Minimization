@@ -1,0 +1,101 @@
+{
+    "app_info": {
+        "App Name": "Mayo Clinic4+",
+        "App Category": "Medical",
+        "URL": "https://apps.apple.com/us/app/mayo-clinic/id523220194",
+        "App ID": 523220194,
+        "Price": "Free",
+        "App Rating": 3.4,
+        "No. of Ratings": 2100,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Health & Fitness",
+            "Financial Info",
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Sensitive Info"
+        ],
+        "Data Not Linked to You": [
+            "Search History",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Health & Fitness": [
+                "Health",
+                "Fitness"
+            ],
+            "Financial Info": [
+                "Payment Info",
+                "Other Financial Info"
+            ],
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Search History": [
+                "Search History"
+            ],
+            "Diagnostics": [
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Search History": [
+                "Search History"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

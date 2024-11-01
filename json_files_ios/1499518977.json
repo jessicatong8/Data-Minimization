@@ -1,0 +1,114 @@
+{
+    "app_info": {
+        "App Name": "MyKomatsu Mobile4+",
+        "App Category": "Productivity",
+        "URL": "https://apps.apple.com/us/app/mykomatsu-mobile/id1499518977",
+        "App ID": 1499518977,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 6,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contact Info",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "User Content": [
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Physical Address"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Physical Address"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

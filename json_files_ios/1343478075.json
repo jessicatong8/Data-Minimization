@@ -1,0 +1,89 @@
+{
+    "app_info": {
+        "App Name": "Gabi - Car & Home Insurance4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/gabi-car-home-insurance/id1343478075",
+        "App ID": 1343478075,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 1400,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "User Content": [
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Other User Contact Info"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ]
+    }
+}

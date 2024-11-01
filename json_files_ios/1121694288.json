@@ -1,0 +1,71 @@
+{
+    "app_info": {
+        "App Name": "TaxiWithUs4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/taxiwithus/id1121694288",
+        "App ID": 1121694288,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 237,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Location",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_track": {}
+}

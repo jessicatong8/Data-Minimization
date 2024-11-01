@@ -1,0 +1,55 @@
+{
+    "app_info": {
+        "App Name": "TravaLab12+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/travalab/id1537142611",
+        "App ID": 1537142611,
+        "Price": "Free",
+        "App Rating": 3.3,
+        "No. of Ratings": 6,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "User Content"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Precise Location"
+        ]
+    }
+}

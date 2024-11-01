@@ -1,0 +1,75 @@
+{
+    "app_info": {
+        "App Name": "MyChoice Mobile4+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/mychoice-mobile/id1138970986",
+        "App ID": 1138970986,
+        "Price": "Free",
+        "App Rating": 4.2,
+        "No. of Ratings": 1500,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Health & Fitness",
+            "Purchases",
+            "Financial Info",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Sensitive Info"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Health & Fitness": [
+                "Health"
+            ],
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Audio Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

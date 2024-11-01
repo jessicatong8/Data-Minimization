@@ -1,0 +1,59 @@
+{
+    "app_info": {
+        "App Name": "Dirac Live4+",
+        "App Category": "Music",
+        "URL": "https://apps.apple.com/us/app/dirac-live/id1439901949",
+        "App ID": 1439901949,
+        "Price": "Free",
+        "App Rating": 1.6,
+        "No. of Ratings": 21,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Audio Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

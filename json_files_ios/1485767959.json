@@ -1,0 +1,101 @@
+{
+    "app_info": {
+        "App Name": "Club Pilates4+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/club-pilates/id1485767959",
+        "App ID": 1485767959,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 62600,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Name",
+                "Phone Number"
+            ]
+        },
+        "Analytics": {
+            "Contact Info": [
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Other Purposes": {
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Diagnostics": [
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

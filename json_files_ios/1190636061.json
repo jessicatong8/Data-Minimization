@@ -1,0 +1,72 @@
+{
+    "app_info": {
+        "App Name": "Nosey - Watch Full TV Episodes17+",
+        "App Category": "Entertainment",
+        "URL": "https://apps.apple.com/us/app/nosey-watch-full-tv-episodes/id1190636061",
+        "App ID": 1190636061,
+        "Price": "Free",
+        "App Rating": 4.2,
+        "No. of Ratings": 1100,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Advertising Data"
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "app_info": {
+        "App Name": "my portal. by Dignity Health17+",
+        "App Category": "Medical",
+        "URL": "https://apps.apple.com/us/app/my-portal-by-dignity-health/id1167230622",
+        "App ID": 1167230622,
+        "Price": "Free",
+        "App Rating": 1.6,
+        "No. of Ratings": 131,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Health & Fitness",
+            "Contact Info",
+            "Sensitive Info"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ]
+        },
+        "App Functionality": {
+            "Health & Fitness": [
+                "Health"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number",
+                "Other User Contact Info"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_track": {}
+}

@@ -1,0 +1,69 @@
+{
+    "app_info": {
+        "App Name": "Ava: Transcribe Voice to Text4+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/ava-transcribe-voice-to-text/id1030067058",
+        "App ID": 1030067058,
+        "Price": "Free",
+        "App Rating": 4.4,
+        "No. of Ratings": 2300,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contacts"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Name"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Audio Data"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contacts": [
+                "Contacts"
+            ]
+        }
+    },
+    "data_track": {}
+}

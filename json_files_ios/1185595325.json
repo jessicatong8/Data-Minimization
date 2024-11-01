@@ -1,0 +1,55 @@
+{
+    "app_info": {
+        "App Name": "NYC ACCESS HRA4+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/nyc-access-hra/id1185595325",
+        "App ID": 1185595325,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 65099,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

@@ -1,0 +1,71 @@
+{
+    "app_info": {
+        "App Name": "In Consegna4+",
+        "App Category": "Food & Drink",
+        "URL": "https://apps.apple.com/us/app/in-consegna/id1524476672",
+        "App ID": 1524476672,
+        "Price": "Free",
+        "App Rating": 0.0,
+        "No. of Ratings": 0,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Other Diagnostic Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Physical Address"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

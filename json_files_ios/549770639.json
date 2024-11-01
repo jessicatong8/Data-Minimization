@@ -1,0 +1,67 @@
+{
+    "app_info": {
+        "App Name": "Ooredoo Kuwait4+",
+        "App Category": "Utilities",
+        "URL": "https://apps.apple.com/us/app/ooredoo-kuwait/id549770639",
+        "App ID": 549770639,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 16900,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Contact Info"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Contact Info": [
+                "Name"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ]
+        }
+    },
+    "data_track": {
+        "Contact Info": [
+            "Phone Number"
+        ]
+    }
+}

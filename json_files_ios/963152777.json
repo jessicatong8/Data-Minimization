@@ -1,0 +1,100 @@
+{
+    "app_info": {
+        "App Name": "\u5e06\u4e66-\u539f\u6a0a\u767b\u8bfb\u202a\u4e66\u202c4+",
+        "App Category": "Books",
+        "URL": "https://apps.apple.com/us/app/%E5%B8%86%E4%B9%A6-%E5%8E%9F%E6%A8%8A%E7%99%BB%E8%AF%BB%E4%B9%A6/id963152777",
+        "App ID": 963152777,
+        "Price": "Free",
+        "App Rating": 4.2,
+        "No. of Ratings": 172,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Search History",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Contact Info": [
+                "Phone Number"
+            ],
+            "Search History": [
+                "Search History"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Customer Support",
+                "Other User Content"
+            ],
+            "Search History": [
+                "Search History"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

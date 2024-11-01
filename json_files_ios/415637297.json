@@ -1,0 +1,86 @@
+{
+    "app_info": {
+        "App Name": "ATM Milano Official App4+",
+        "App Category": "Navigation",
+        "URL": "https://apps.apple.com/us/app/atm-milano-official-app/id415637297",
+        "App ID": 415637297,
+        "Price": "Free",
+        "App Rating": 2.8,
+        "No. of Ratings": 12,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Contact Info",
+            "Identifiers",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

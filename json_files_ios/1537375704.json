@@ -1,0 +1,93 @@
+{
+    "app_info": {
+        "App Name": "Heart Rate Monitor:Health Care4+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/heart-rate-monitor-health-care/id1537375704",
+        "App ID": 1537375704,
+        "Price": "Free",
+        "App Rating": 4.9,
+        "No. of Ratings": 677,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Usage Data": [
+                "Other Usage Data"
+            ]
+        },
+        "Product Personalization": {
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Usage Data": [
+            "Product Interaction",
+            "Advertising Data"
+        ]
+    }
+}

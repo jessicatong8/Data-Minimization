@@ -1,0 +1,71 @@
+{
+    "app_info": {
+        "App Name": "AAN Continuum Audio17+",
+        "App Category": "Medical",
+        "URL": "https://apps.apple.com/us/app/aan-continuum-audio/id1345065547",
+        "App ID": 1345065547,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 305,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

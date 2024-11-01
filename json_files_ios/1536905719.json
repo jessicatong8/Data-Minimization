@@ -1,0 +1,125 @@
+{
+    "app_info": {
+        "App Name": "KevOnStage Studios4+",
+        "App Category": "Music",
+        "URL": "https://apps.apple.com/us/app/kevonstage-studios/id1536905719",
+        "App ID": 1536905719,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 7100,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Search History",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "User Content": [
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ],
+            "User Content": [
+                "Customer Support",
+                "Other User Content"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Developer's Advertising or Marketing": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Search History": [
+                "Search History"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ],
+            "Diagnostics": [
+                "Other Diagnostic Data"
+            ]
+        },
+        "Product Personalization": {
+            "Search History": [
+                "Search History"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Search History": [
+                "Search History"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

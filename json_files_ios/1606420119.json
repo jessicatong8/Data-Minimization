@@ -1,0 +1,97 @@
+{
+    "app_info": {
+        "App Name": "Stater Bros. Markets4+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/stater-bros-markets/id1606420119",
+        "App ID": 1606420119,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 1700,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Financial Info",
+            "Location",
+            "Contact Info",
+            "Search History",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ]
+        },
+        "Analytics": {
+            "Search History": [
+                "Search History"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

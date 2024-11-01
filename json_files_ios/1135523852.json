@@ -1,0 +1,85 @@
+{
+    "app_info": {
+        "App Name": "wormate.io4+",
+        "App Category": "Games",
+        "URL": "https://apps.apple.com/us/app/wormate-io/id1135523852",
+        "App ID": 1135523852,
+        "Price": "Free",
+        "App Rating": 4.1,
+        "No. of Ratings": 28800,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Name"
+            ],
+            "User Content": [
+                "Gameplay Content"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

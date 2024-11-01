@@ -1,0 +1,83 @@
+{
+    "app_info": {
+        "App Name": "markit app17+",
+        "App Category": "Food & Drink",
+        "URL": "https://apps.apple.com/us/app/markit-app/id1234306023",
+        "App ID": 1234306023,
+        "Price": "Free",
+        "App Rating": 4.2,
+        "No. of Ratings": 34,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Identifiers",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Contact Info": [
+                "Physical Address"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "User Content": [
+                "Customer Support"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Customer Support"
+            ]
+        }
+    },
+    "data_track": {}
+}

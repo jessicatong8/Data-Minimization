@@ -1,0 +1,64 @@
+{
+    "app_info": {
+        "App Name": "17LIVE - Live Streaming17+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/17live-live-streaming/id988259048",
+        "App ID": 988259048,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 3100,
+        "Offers In-App Purchases": true,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

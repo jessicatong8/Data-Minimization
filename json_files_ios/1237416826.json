@@ -1,0 +1,84 @@
+{
+    "app_info": {
+        "App Name": "Santa Fe Margarita Trail17+",
+        "App Category": "Food & Drink",
+        "URL": "https://apps.apple.com/us/app/santa-fe-margarita-trail/id1237416826",
+        "App ID": 1237416826,
+        "Price": "$2.99",
+        "App Rating": 3.1,
+        "No. of Ratings": 59,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Identifiers"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_track": {}
+}

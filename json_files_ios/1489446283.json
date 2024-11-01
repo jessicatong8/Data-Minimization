@@ -1,0 +1,83 @@
+{
+    "app_info": {
+        "App Name": "Lumi car rental4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/lumi-car-rental/id1489446283",
+        "App ID": 1489446283,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 307,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Name"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

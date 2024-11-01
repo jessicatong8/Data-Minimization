@@ -1,0 +1,89 @@
+{
+    "app_info": {
+        "App Name": "Card Realm17+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/card-realm/id1608572895",
+        "App ID": 1608572895,
+        "Price": "Free",
+        "App Rating": 4.2,
+        "No. of Ratings": 5,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Financial Info",
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Contact Info": [
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Name"
+            ],
+            "User Content": [
+                "Emails or Text Messages"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Physical Address"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address"
+            ]
+        },
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

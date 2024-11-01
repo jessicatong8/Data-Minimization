@@ -1,0 +1,49 @@
+{
+    "app_info": {
+        "App Name": "The Sydney Morning Herald12+",
+        "App Category": "News",
+        "URL": "https://apps.apple.com/us/app/the-sydney-morning-herald/id1411569831",
+        "App ID": 1411569831,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 61,
+        "Offers In-App Purchases": true,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "User Content": [
+                "Customer Support"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

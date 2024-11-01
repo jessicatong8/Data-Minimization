@@ -1,0 +1,71 @@
+{
+    "app_info": {
+        "App Name": "My Mikvah Calendar4+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/my-mikvah-calendar/id444408955",
+        "App ID": 444408955,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 16,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Sensitive Info"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Customer Support",
+                "Other User Content"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

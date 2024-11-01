@@ -1,0 +1,114 @@
+{
+    "app_info": {
+        "App Name": "HuntWise: A Better Hunting App12+",
+        "App Category": "Navigation",
+        "URL": "https://apps.apple.com/us/app/huntwise-a-better-hunting-app/id645518545",
+        "App ID": 645518545,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 53400,
+        "Offers In-App Purchases": true,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Purchases",
+            "Contact Info",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Purchases": [
+                "Purchase History"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Purchases": [
+            "Purchase History"
+        ],
+        "Contact Info": [
+            "Email Address"
+        ],
+        "Usage Data": [
+            "Product Interaction"
+        ]
+    }
+}

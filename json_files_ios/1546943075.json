@@ -1,0 +1,67 @@
+{
+    "app_info": {
+        "App Name": "Galactigun: Rhythm Blaster9+",
+        "App Category": "Games",
+        "URL": "https://apps.apple.com/us/app/galactigun-rhythm-blaster/id1546943075",
+        "App ID": 1546943075,
+        "Price": "Free",
+        "App Rating": 4.9,
+        "No. of Ratings": 13,
+        "Offers In-App Purchases": true,
+        "Age Rating": "9+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Purchases"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Location",
+            "Diagnostics",
+            "Other Data"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Diagnostics": [
+                "Performance Data",
+                "Other Diagnostic Data"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_track": {
+        "Purchases": [
+            "Purchase History"
+        ]
+    }
+}

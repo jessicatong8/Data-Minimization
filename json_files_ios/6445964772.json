@@ -1,0 +1,67 @@
+{
+    "app_info": {
+        "App Name": "CRG VIP4+",
+        "App Category": "Food & Drink",
+        "URL": "https://apps.apple.com/us/app/crg-vip/id6445964772",
+        "App ID": 6445964772,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 7,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

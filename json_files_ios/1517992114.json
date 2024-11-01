@@ -1,0 +1,79 @@
+{
+    "app_info": {
+        "App Name": "RepostTi - Reposter & Saver4+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/repostti-reposter-saver/id1517992114",
+        "App ID": 1517992114,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 38700,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Advertising Data"
+        ]
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "app_info": {
+        "App Name": "The First TV4+",
+        "App Category": "News",
+        "URL": "https://apps.apple.com/us/app/the-first-tv/id1506596700",
+        "App ID": 1506596700,
+        "Price": "Free",
+        "App Rating": 3.9,
+        "No. of Ratings": 249,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

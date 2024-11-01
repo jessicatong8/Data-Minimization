@@ -1,0 +1,83 @@
+{
+    "app_info": {
+        "App Name": "FraserValleyToday4+",
+        "App Category": "News",
+        "URL": "https://apps.apple.com/us/app/fraservalleytoday/id1631010985",
+        "App ID": 1631010985,
+        "Price": "Free",
+        "App Rating": 0.0,
+        "No. of Ratings": 0,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Browsing History",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Browsing History": [
+                "Browsing History"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

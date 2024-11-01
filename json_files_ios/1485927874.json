@@ -1,0 +1,65 @@
+{
+    "app_info": {
+        "App Name": "Evocare Client4+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/evocare-client/id1485927874",
+        "App ID": 1485927874,
+        "Price": "Free",
+        "App Rating": 4.3,
+        "No. of Ratings": 7,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Health & Fitness",
+            "Location",
+            "Contact Info"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Physical Address"
+            ]
+        },
+        "App Functionality": {
+            "Health & Fitness": [
+                "Health"
+            ],
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Physical Address"
+            ]
+        }
+    },
+    "data_track": {}
+}

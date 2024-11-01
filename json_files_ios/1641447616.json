@@ -1,0 +1,73 @@
+{
+    "app_info": {
+        "App Name": "FixGo: Michelin at Best Price4+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/fixgo-michelin-at-best-price/id1641447616",
+        "App ID": 1641447616,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 170,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Financial Info",
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Emails or Text Messages",
+                "Photos or Videos"
+            ]
+        },
+        "Other Purposes": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

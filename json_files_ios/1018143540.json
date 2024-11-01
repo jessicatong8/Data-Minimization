@@ -1,0 +1,122 @@
+{
+    "app_info": {
+        "App Name": "Cloud Outliner - Nested Lists4+",
+        "App Category": "Productivity",
+        "URL": "https://apps.apple.com/us/app/cloud-outliner-nested-lists/id1018143540",
+        "App ID": 1018143540,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 647,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ]
+        },
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "User Content": [
+                "Other User Content"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Customer Support"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Coarse Location"
+        ],
+        "Identifiers": [
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Product Interaction",
+            "Advertising Data"
+        ],
+        "Diagnostics": [
+            "Crash Data",
+            "Performance Data"
+        ]
+    }
+}

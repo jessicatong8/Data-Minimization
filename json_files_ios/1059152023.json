@@ -1,0 +1,63 @@
+{
+    "app_info": {
+        "App Name": "Bobby - Track subscriptions4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/bobby-track-subscriptions/id1059152023",
+        "App ID": 1059152023,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 7100,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ]
+        },
+        "Product Personalization": {
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ]
+        },
+        "App Functionality": {
+            "Usage Data": [
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

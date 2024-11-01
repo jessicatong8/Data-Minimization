@@ -1,0 +1,85 @@
+{
+    "app_info": {
+        "App Name": "VERO - True Social17+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/vero-true-social/id971055041",
+        "App ID": 971055041,
+        "Price": "Free",
+        "App Rating": 4.1,
+        "No. of Ratings": 1300,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Financial Info",
+            "Contact Info",
+            "Contacts",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address"
+            ]
+        },
+        "Product Personalization": {
+            "Contacts": [
+                "Contacts"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Other Purposes": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address"
+            ],
+            "User Content": [
+                "Other User Content"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

@@ -1,0 +1,93 @@
+{
+    "app_info": {
+        "App Name": "WebMD: Symptom Checker17+",
+        "App Category": "Medical",
+        "URL": "https://apps.apple.com/us/app/webmd-symptom-checker/id295076329",
+        "App ID": 295076329,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 115100,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Health & Fitness",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "User Content",
+            "Search History",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Health & Fitness": [
+                "Health"
+            ]
+        },
+        "Product Personalization": {
+            "Health & Fitness": [
+                "Health"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Analytics": {
+            "Search History": [
+                "Search History"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

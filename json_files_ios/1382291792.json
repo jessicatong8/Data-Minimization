@@ -1,0 +1,55 @@
+{
+    "app_info": {
+        "App Name": "Jeff- The super services app4+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/jeff-the-super-services-app/id1382291792",
+        "App ID": 1382291792,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 1400,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contact Info",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Name"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ]
+        }
+    },
+    "data_track": {}
+}

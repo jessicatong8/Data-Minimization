@@ -1,0 +1,105 @@
+{
+    "app_info": {
+        "App Name": "SBT News12+",
+        "App Category": "News",
+        "URL": "https://apps.apple.com/us/app/sbt-news/id1668556924",
+        "App ID": 1668556924,
+        "Price": "Free",
+        "App Rating": 0.0,
+        "No. of Ratings": 0,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Usage Data": [
+                "Advertising Data",
+                "Other Usage Data"
+            ]
+        },
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "Other Purposes": {
+            "Diagnostics": [
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID"
+        ]
+    }
+}

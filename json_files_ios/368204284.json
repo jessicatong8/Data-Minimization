@@ -1,0 +1,81 @@
+{
+    "app_info": {
+        "App Name": "Kinepolis4+",
+        "App Category": "Entertainment",
+        "URL": "https://apps.apple.com/us/app/kinepolis/id368204284",
+        "App ID": 368204284,
+        "Price": "Free",
+        "App Rating": 2.1,
+        "No. of Ratings": 24,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Browsing History"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Browsing History",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Browsing History": [
+                "Browsing History"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Browsing History": [
+                "Browsing History"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ]
+        }
+    },
+    "data_track": {
+        "Browsing History": [
+            "Browsing History"
+        ]
+    }
+}

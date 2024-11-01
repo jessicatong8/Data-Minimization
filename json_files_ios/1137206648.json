@@ -1,0 +1,69 @@
+{
+    "app_info": {
+        "App Name": "LoDel12+",
+        "App Category": "Food & Drink",
+        "URL": "https://apps.apple.com/us/app/lodel/id1137206648",
+        "App ID": 1137206648,
+        "Price": "Free",
+        "App Rating": 4.3,
+        "No. of Ratings": 615,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Financial Info",
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Purchases": [
+                "Purchase History"
+            ]
+        },
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ]
+        },
+        "Product Personalization": {
+            "Purchases": [
+                "Purchase History"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

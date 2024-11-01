@@ -1,0 +1,60 @@
+{
+    "app_info": {
+        "App Name": "Pete's Market4+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/petes-market/id1534319539",
+        "App ID": 1534319539,
+        "Price": "Free",
+        "App Rating": 4.1,
+        "No. of Ratings": 47,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Search History"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Search History": [
+                "Search History"
+            ]
+        },
+        "Product Personalization": {
+            "Search History": [
+                "Search History"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Search History": [
+                "Search History"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_track": {}
+}

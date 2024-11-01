@@ -1,0 +1,56 @@
+{
+    "app_info": {
+        "App Name": "Sugarloaf12+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/sugarloaf/id1477955135",
+        "App ID": 1477955135,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 1000,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

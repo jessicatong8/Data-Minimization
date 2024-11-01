@@ -1,0 +1,77 @@
+{
+    "app_info": {
+        "App Name": "Lines of Zen4+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/lines-of-zen/id1539285742",
+        "App ID": 1539285742,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 13,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "Product Personalization": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Usage Data": [
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "Other Purposes": {
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

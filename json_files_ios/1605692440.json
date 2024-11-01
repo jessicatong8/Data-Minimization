@@ -1,0 +1,86 @@
+{
+    "app_info": {
+        "App Name": "Carrot - Save, Shop, Share4+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/carrot-save-shop-share/id1605692440",
+        "App ID": 1605692440,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 62,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Diagnostics"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Contacts",
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Contact Info": [
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Contacts": [
+                "Contacts"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_track": {
+        "Diagnostics": [
+            "Other Diagnostic Data"
+        ]
+    }
+}

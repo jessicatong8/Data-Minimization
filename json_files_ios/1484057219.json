@@ -1,0 +1,63 @@
+{
+    "app_info": {
+        "App Name": "Joy Park Fly4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/joy-park-fly/id1484057219",
+        "App ID": 1484057219,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 4,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contact Info",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Other User Contact Info"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

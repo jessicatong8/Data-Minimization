@@ -1,0 +1,91 @@
+{
+    "app_info": {
+        "App Name": "Catapult One: Sports Training4+",
+        "App Category": "Sports",
+        "URL": "https://apps.apple.com/us/app/catapult-one-sports-training/id1382164781",
+        "App ID": 1382164781,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 422,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Health & Fitness",
+            "Location",
+            "User Content",
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address"
+            ]
+        },
+        "Analytics": {
+            "Contact Info": [
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Name"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Health & Fitness": [
+                "Health"
+            ],
+            "Location": [
+                "Precise Location"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Other Purposes": {
+            "User Content": [
+                "Customer Support"
+            ]
+        }
+    },
+    "data_track": {}
+}

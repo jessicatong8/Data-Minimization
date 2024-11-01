@@ -1,0 +1,84 @@
+{
+    "app_info": {
+        "App Name": "Light Meter: Lux-525 Pro4+",
+        "App Category": "Utilities",
+        "URL": "https://apps.apple.com/us/app/light-meter-lux-525-pro/id1636117065",
+        "App ID": 1636117065,
+        "Price": "Free",
+        "App Rating": 4.4,
+        "No. of Ratings": 10,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics",
+            "Other Data"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        }
+    },
+    "data_track": {}
+}

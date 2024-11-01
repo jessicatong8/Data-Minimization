@@ -1,0 +1,80 @@
+{
+    "app_info": {
+        "App Name": "ASE Renewal App4+",
+        "App Category": "Education",
+        "URL": "https://apps.apple.com/us/app/ase-renewal-app/id1170697503",
+        "App ID": 1170697503,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 3000,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Contact Info"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Analytics": {
+            "User Content": [
+                "Customer Support"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Name"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Other Purposes": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Contact Info": [
+            "Name"
+        ]
+    }
+}

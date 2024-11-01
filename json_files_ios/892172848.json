@@ -1,0 +1,127 @@
+{
+    "app_info": {
+        "App Name": "dubizzle4+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/dubizzle/id892172848",
+        "App ID": 892172848,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 11600,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Search History",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Search History": [
+                "Search History"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Search History": [
+                "Search History"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Customer Support"
+            ],
+            "Search History": [
+                "Search History"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Other Purposes": {
+            "User Content": [
+                "Customer Support"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Product Interaction",
+            "Advertising Data"
+        ]
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "app_info": {
+        "App Name": "New England Patriots4+",
+        "App Category": "Sports",
+        "URL": "https://apps.apple.com/us/app/new-england-patriots/id550269821",
+        "App ID": 550269821,
+        "Price": "Free",
+        "App Rating": 3.8,
+        "No. of Ratings": 479,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Usage Data": [
+                "Advertising Data",
+                "Other Usage Data"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Advertising Data",
+                "Other Usage Data"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data",
+                "Other Usage Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ]
+        },
+        "Other Purposes": {
+            "Usage Data": [
+                "Other Usage Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Usage Data": [
+            "Product Interaction",
+            "Advertising Data",
+            "Other Usage Data"
+        ]
+    }
+}

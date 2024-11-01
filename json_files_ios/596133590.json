@@ -1,0 +1,88 @@
+{
+    "app_info": {
+        "App Name": "Nick - Watch TV Shows & Videos4+",
+        "App Category": "Entertainment",
+        "URL": "https://apps.apple.com/us/app/nick-watch-tv-shows-videos/id596133590",
+        "App ID": 596133590,
+        "Price": "Free",
+        "App Rating": 2.9,
+        "No. of Ratings": 620,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "User Content",
+            "Search History",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Search History": [
+                "Search History"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "User Content": [
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

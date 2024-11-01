@@ -1,0 +1,91 @@
+{
+    "app_info": {
+        "App Name": "Nine \u4f60\u5462 - \u6bcf\u65e59\u4f4d\u65b0\u670b\u202a\u53cb\u202c17+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/nine-%E4%BD%A0%E5%91%A2-%E6%AF%8F%E6%97%A59%E4%BD%8D%E6%96%B0%E6%9C%8B%E5%8F%8B/id1540477539",
+        "App ID": 1540477539,
+        "Price": "Free",
+        "App Rating": 4.0,
+        "No. of Ratings": 10,
+        "Offers In-App Purchases": true,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Sensitive Info",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Contact Info": [
+                "Name"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Name"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Name",
+                "Phone Number",
+                "Other User Contact Info"
+            ],
+            "User Content": [
+                "Emails or Text Messages",
+                "Photos or Videos",
+                "Audio Data",
+                "Other User Content"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Usage Data": [
+            "Product Interaction"
+        ]
+    }
+}

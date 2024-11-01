@@ -1,0 +1,112 @@
+{
+    "app_info": {
+        "App Name": "Heart Rate Plus: Pulse Monitor4+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/heart-rate-plus-pulse-monitor/id1061544495",
+        "App ID": 1061544495,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 2900,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Health & Fitness",
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Analytics": {
+            "Health & Fitness": [
+                "Health"
+            ],
+            "User Content": [
+                "Other User Content"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Health & Fitness": [
+                "Health"
+            ],
+            "User Content": [
+                "Customer Support"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Coarse Location"
+        ],
+        "Identifiers": [
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Advertising Data"
+        ],
+        "Diagnostics": [
+            "Performance Data"
+        ]
+    }
+}

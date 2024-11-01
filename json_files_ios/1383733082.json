@@ -1,0 +1,116 @@
+{
+    "app_info": {
+        "App Name": "Nails - Acrylic Nail Art Salon4+",
+        "App Category": "Games",
+        "URL": "https://apps.apple.com/us/app/nails-acrylic-nail-art-salon/id1383733082",
+        "App ID": 1383733082,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 1000,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "User Content",
+            "Usage Data",
+            "Diagnostics",
+            "Other Data"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        },
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Photos or Videos"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Advertising Data"
+        ]
+    }
+}

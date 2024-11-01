@@ -1,0 +1,89 @@
+{
+    "app_info": {
+        "App Name": "Marefiale.com4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/marefiale-com/id1622409828",
+        "App ID": 1622409828,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 3,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Contact Info": [
+                "Name"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Name"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Advertising Data",
+                "Other Usage Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Advertising Data",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

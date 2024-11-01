@@ -1,0 +1,75 @@
+{
+    "app_info": {
+        "App Name": "FamilySearch Tree4+",
+        "App Category": "Reference",
+        "URL": "https://apps.apple.com/us/app/familysearch-tree/id885982973",
+        "App ID": 885982973,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 343100,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Sensitive Info"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data",
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

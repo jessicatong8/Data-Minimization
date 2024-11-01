@@ -1,0 +1,83 @@
+{
+    "app_info": {
+        "App Name": "365Scores: Live Scores & News17+",
+        "App Category": "Sports",
+        "URL": "https://apps.apple.com/us/app/365scores-live-scores-news/id571801488",
+        "App ID": 571801488,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 114600,
+        "Offers In-App Purchases": true,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Location",
+            "Contact Info",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID"
+        ]
+    }
+}

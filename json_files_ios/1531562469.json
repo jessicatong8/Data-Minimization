@@ -1,0 +1,60 @@
+{
+    "app_info": {
+        "App Name": "Reboot App - For Better Life17+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/reboot-app-for-better-life/id1531562469",
+        "App ID": 1531562469,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 177,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contact Info",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Other User Contact Info"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ]
+        }
+    },
+    "data_track": {}
+}

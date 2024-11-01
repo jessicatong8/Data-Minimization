@@ -1,0 +1,99 @@
+{
+    "app_info": {
+        "App Name": "Package Tracker: Track Parcels4+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/package-tracker-track-parcels/id1558870609",
+        "App ID": 1558870609,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 1100,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Purchases",
+            "Location",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Location",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Product Personalization": {
+            "Purchases": [
+                "Purchase History"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "User Content": [
+                "Customer Support"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_track": {
+        "Purchases": [
+            "Purchase History"
+        ],
+        "Location": [
+            "Coarse Location"
+        ],
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Advertising Data"
+        ]
+    }
+}

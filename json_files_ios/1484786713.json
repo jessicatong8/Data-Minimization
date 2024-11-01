@@ -1,0 +1,53 @@
+{
+    "app_info": {
+        "App Name": "ask ARI : Area Safety Checker4+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/ask-ari-area-safety-checker/id1484786713",
+        "App ID": 1484786713,
+        "Price": "Free",
+        "App Rating": 0.0,
+        "No. of Ratings": 0,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Diagnostics": [
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

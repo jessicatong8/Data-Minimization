@@ -1,0 +1,47 @@
+{
+    "app_info": {
+        "App Name": "Postbank4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/postbank/id6444706327",
+        "App ID": 6444706327,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 10,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ]
+        }
+    },
+    "data_track": {}
+}

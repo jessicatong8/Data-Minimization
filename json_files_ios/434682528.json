@@ -1,0 +1,72 @@
+{
+    "app_info": {
+        "App Name": "Citrix Secure Hub4+",
+        "App Category": "Business",
+        "URL": "https://apps.apple.com/us/app/citrix-secure-hub/id434682528",
+        "App ID": 434682528,
+        "Price": "Free",
+        "App Rating": 1.7,
+        "No. of Ratings": 614,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Usage Data",
+            "Diagnostics",
+            "Other Data"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ]
+        }
+    },
+    "data_track": {}
+}

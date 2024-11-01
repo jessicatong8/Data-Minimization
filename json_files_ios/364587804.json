@@ -1,0 +1,132 @@
+{
+    "app_info": {
+        "App Name": "La Vanguardia4+",
+        "App Category": "News",
+        "URL": "https://apps.apple.com/us/app/la-vanguardia/id364587804",
+        "App ID": 364587804,
+        "Price": "Free",
+        "App Rating": 2.2,
+        "No. of Ratings": 6,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Purchases",
+            "Contact Info",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Contact Info",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Name"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "Other Purposes": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Purchases": [
+            "Purchase History"
+        ],
+        "Contact Info": [
+            "Email Address",
+            "Name"
+        ],
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Product Interaction",
+            "Advertising Data"
+        ],
+        "Diagnostics": [
+            "Performance Data",
+            "Other Diagnostic Data"
+        ]
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "app_info": {
+        "App Name": "Helicopter Charter4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/helicopter-charter/id1288920546",
+        "App ID": 1288920546,
+        "Price": "$7.99",
+        "App Rating": 1.0,
+        "No. of Ratings": 4,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Analytics": {
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Product Personalization": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID"
+        ]
+    }
+}

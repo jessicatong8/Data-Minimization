@@ -1,0 +1,115 @@
+{
+    "app_info": {
+        "App Name": "Mindbody: Fitness, Salon & Spa4+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/mindbody-fitness-salon-spa/id689501356",
+        "App ID": 689501356,
+        "Price": "Free",
+        "App Rating": 4.9,
+        "No. of Ratings": 215200,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Health & Fitness",
+            "Financial Info",
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ]
+        },
+        "Analytics": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Health & Fitness": [
+                "Health"
+            ],
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Other Purposes": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Developer's Advertising or Marketing": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Other Purposes": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

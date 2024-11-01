@@ -1,0 +1,123 @@
+{
+    "app_info": {
+        "App Name": "doxo Bill Pay and Reminders4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/doxo-bill-pay-and-reminders/id419248567",
+        "App ID": 419248567,
+        "Price": "Free",
+        "App Rating": 4.0,
+        "No. of Ratings": 640,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Financial Info",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Other Data"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Search History",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        },
+        "Product Personalization": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Financial Info": [
+                "Payment Info",
+                "Other Financial Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Financial Info": [
+                "Payment Info",
+                "Other Financial Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address"
+            ],
+            "User Content": [
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Search History": [
+                "Search History"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "Product Personalization": {
+            "Financial Info": [
+                "Credit Info"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Credit Info"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

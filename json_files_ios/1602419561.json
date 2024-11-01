@@ -1,0 +1,77 @@
+{
+    "app_info": {
+        "App Name": "wemobi4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/wemobi/id1602419561",
+        "App ID": 1602419561,
+        "Price": "Free",
+        "App Rating": 0.0,
+        "No. of Ratings": 0,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Contact Info": [
+                "Physical Address"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Usage Data": [
+            "Advertising Data"
+        ]
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "app_info": {
+        "App Name": "Amigo Paisano4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/amigo-paisano/id1451890412",
+        "App ID": 1451890412,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 5500,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Purchases",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Developer's Advertising or Marketing": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Usage Data": [
+            "Advertising Data"
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "app_info": {
+        "App Name": "Acker Wines17+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/acker-wines/id1273799789",
+        "App ID": 1273799789,
+        "Price": "Free",
+        "App Rating": 3.0,
+        "No. of Ratings": 24,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Coarse Location"
+        ],
+        "Identifiers": [
+            "User ID"
+        ],
+        "Usage Data": [
+            "Product Interaction"
+        ]
+    }
+}

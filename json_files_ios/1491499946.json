@@ -1,0 +1,95 @@
+{
+    "app_info": {
+        "App Name": "AT&T Personal Cloud4+",
+        "App Category": "Productivity",
+        "URL": "https://apps.apple.com/us/app/at-t-personal-cloud/id1491499946",
+        "App ID": 1491499946,
+        "Price": "Free",
+        "App Rating": 4.4,
+        "No. of Ratings": 1100,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Contacts",
+            "User Content",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Purchases",
+            "Identifiers",
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Phone Number"
+            ],
+            "Contacts": [
+                "Contacts"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Other Usage Data"
+            ]
+        },
+        "Product Personalization": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Other Purposes": {
+            "Usage Data": [
+                "Other Usage Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

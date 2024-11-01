@@ -1,0 +1,68 @@
+{
+    "app_info": {
+        "App Name": "FS Short Game4+",
+        "App Category": "Sports",
+        "URL": "https://apps.apple.com/us/app/fs-short-game/id1258445132",
+        "App ID": 1258445132,
+        "Price": "Free",
+        "App Rating": 3.0,
+        "No. of Ratings": 2,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "User Content"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "User Content": [
+                "Customer Support"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data",
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "User Content": [
+                "Other User Content"
+            ]
+        }
+    },
+    "data_track": {}
+}

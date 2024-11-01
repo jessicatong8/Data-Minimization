@@ -1,0 +1,104 @@
+{
+    "app_info": {
+        "App Name": "ECOVACS HOME4+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/ecovacs-home/id1329458504",
+        "App ID": 1329458504,
+        "Price": "Free",
+        "App Rating": 4.2,
+        "No. of Ratings": 13300,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "User Content",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Identifiers"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID"
+        ],
+        "Usage Data": [
+            "Product Interaction",
+            "Advertising Data"
+        ]
+    }
+}

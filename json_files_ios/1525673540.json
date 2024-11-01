@@ -1,0 +1,72 @@
+{
+    "app_info": {
+        "App Name": "\u753b\u5883\u7ef5\u202a\u7af9\u202c17+",
+        "App Category": "News",
+        "URL": "https://apps.apple.com/us/app/%E7%94%BB%E5%A2%83%E7%BB%B5%E7%AB%B9/id1525673540",
+        "App ID": 1525673540,
+        "Price": "Free",
+        "App Rating": 0.0,
+        "No. of Ratings": 0,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data",
+                "Customer Support"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Other User Content"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

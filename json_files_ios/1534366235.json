@@ -1,0 +1,67 @@
+{
+    "app_info": {
+        "App Name": "Victorious Believers Saginaw12+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/victorious-believers-saginaw/id1534366235",
+        "App ID": 1534366235,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 1,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address"
+            ]
+        }
+    },
+    "data_track": {}
+}

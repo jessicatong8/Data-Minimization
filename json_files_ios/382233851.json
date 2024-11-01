@@ -1,0 +1,122 @@
+{
+    "app_info": {
+        "App Name": "Flightradar24 | Flight Tracker4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/flightradar24-flight-tracker/id382233851",
+        "App ID": 382233851,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 354000,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Purchases",
+            "Location",
+            "Contact Info",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Contact Info",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Precise Location"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Location": [
+                "Precise Location"
+            ]
+        },
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Purchases": [
+            "Purchase History"
+        ],
+        "Location": [
+            "Precise Location",
+            "Coarse Location"
+        ],
+        "Contact Info": [
+            "Email Address"
+        ],
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Product Interaction",
+            "Advertising Data"
+        ]
+    }
+}

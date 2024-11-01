@@ -1,0 +1,60 @@
+{
+    "app_info": {
+        "App Name": "Orange Pill App17+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/orange-pill-app/id1627034193",
+        "App ID": 1627034193,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 75,
+        "Offers In-App Purchases": true,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

@@ -1,0 +1,117 @@
+{
+    "app_info": {
+        "App Name": "ThaiFriendly Dating17+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/thaifriendly-dating/id1008710182",
+        "App ID": 1008710182,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 2700,
+        "Offers In-App Purchases": true,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Purchases",
+            "Location",
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Sensitive Info",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data",
+                "Other User Content"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_not_linked": {},
+    "data_track": {
+        "Purchases": [
+            "Purchase History"
+        ],
+        "Location": [
+            "Coarse Location"
+        ],
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "app_info": {
+        "App Name": "AmpUp - EV Charging17+",
+        "App Category": "Navigation",
+        "URL": "https://apps.apple.com/us/app/ampup-ev-charging/id1451890303",
+        "App ID": 1451890303,
+        "Price": "Free",
+        "App Rating": 3.3,
+        "No. of Ratings": 81,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ]
+        }
+    },
+    "data_track": {}
+}

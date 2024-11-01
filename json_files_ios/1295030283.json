@@ -1,0 +1,73 @@
+{
+    "app_info": {
+        "App Name": "\u6c34\u6728\u793e\u202a\u533a\u202c17+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/%E6%B0%B4%E6%9C%A8%E7%A4%BE%E5%8C%BA/id1295030283",
+        "App ID": 1295030283,
+        "Price": "Free",
+        "App Rating": 1.9,
+        "No. of Ratings": 9,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Other User Content"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

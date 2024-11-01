@@ -1,0 +1,69 @@
+{
+    "app_info": {
+        "App Name": "WomanLog Calendar12+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/womanlog-calendar/id421360650",
+        "App ID": 421360650,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 613,
+        "Offers In-App Purchases": true,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Health & Fitness",
+            "Contact Info",
+            "Identifiers",
+            "Sensitive Info"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Health & Fitness": [
+                "Health"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

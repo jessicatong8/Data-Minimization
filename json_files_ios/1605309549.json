@@ -1,0 +1,91 @@
+{
+    "app_info": {
+        "App Name": "Goodfynd: Find food trucks4+",
+        "App Category": "Food & Drink",
+        "URL": "https://apps.apple.com/us/app/goodfynd-find-food-trucks/id1605309549",
+        "App ID": 1605309549,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 10,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ]
+        },
+        "Other Purposes": {
+            "Financial Info": [
+                "Payment Info"
+            ]
+        }
+    },
+    "data_track": {}
+}

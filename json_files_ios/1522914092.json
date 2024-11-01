@@ -1,0 +1,72 @@
+{
+    "app_info": {
+        "App Name": "Boca Chica4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/boca-chica/id1522914092",
+        "App ID": 1522914092,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 1,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Phone Number"
+            ]
+        }
+    },
+    "data_track": {
+        "Contact Info": [
+            "Email Address",
+            "Name"
+        ],
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ]
+    }
+}

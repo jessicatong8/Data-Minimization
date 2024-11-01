@@ -1,0 +1,88 @@
+{
+    "app_info": {
+        "App Name": "ApexDrop12+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/apexdrop/id1494216369",
+        "App ID": 1494216369,
+        "Price": "Free",
+        "App Rating": 3.5,
+        "No. of Ratings": 79,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers",
+            "Usage Data",
+            "Sensitive Info",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Photos or Videos"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Product Interaction",
+            "Advertising Data"
+        ]
+    }
+}

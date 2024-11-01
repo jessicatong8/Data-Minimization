@@ -1,0 +1,76 @@
+{
+    "app_info": {
+        "App Name": "ROADSTOCK | Touring GPS Logger4+",
+        "App Category": "Navigation",
+        "URL": "https://apps.apple.com/us/app/roadstock-touring-gps-logger/id1252969455",
+        "App ID": 1252969455,
+        "Price": "Free",
+        "App Rating": 3.0,
+        "No. of Ratings": 3,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Precise Location"
+        ],
+        "Identifiers": [
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Product Interaction",
+            "Advertising Data"
+        ],
+        "Diagnostics": [
+            "Crash Data",
+            "Performance Data"
+        ]
+    }
+}

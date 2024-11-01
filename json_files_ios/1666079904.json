@@ -1,0 +1,57 @@
+{
+    "app_info": {
+        "App Name": "Track My Flight Now4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/track-my-flight-now/id1666079904",
+        "App ID": 1666079904,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 44,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {},
+    "data_not_linked": {
+        "Developer's Advertising or Marketing": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

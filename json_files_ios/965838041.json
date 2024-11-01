@@ -1,0 +1,53 @@
+{
+    "app_info": {
+        "App Name": "The Parking Spot\u202a\u00ae\u202c4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/the-parking-spot/id965838041",
+        "App ID": 965838041,
+        "Price": "Free",
+        "App Rating": 4.4,
+        "No. of Ratings": 2100,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Contact Info": [
+                "Name"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

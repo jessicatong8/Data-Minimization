@@ -1,0 +1,63 @@
+{
+    "app_info": {
+        "App Name": "HODINKEE4+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/hodinkee/id1008305274",
+        "App ID": 1008305274,
+        "Price": "Free",
+        "App Rating": 4.9,
+        "No. of Ratings": 8600,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Usage Data": [
+                "Advertising Data"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

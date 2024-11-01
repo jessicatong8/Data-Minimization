@@ -1,0 +1,76 @@
+{
+    "app_info": {
+        "App Name": "Pawshake - Dog & Pet Sitter4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/pawshake-dog-pet-sitter/id796403233",
+        "App ID": 796403233,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 269,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Purchases",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Linked to You": [
+            "Identifiers",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Purchases",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Purchases": [
+            "Purchase History"
+        ],
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Product Interaction",
+            "Other Usage Data"
+        ],
+        "Diagnostics": [
+            "Crash Data",
+            "Performance Data"
+        ]
+    }
+}

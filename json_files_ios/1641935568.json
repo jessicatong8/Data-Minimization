@@ -1,0 +1,80 @@
+{
+    "app_info": {
+        "App Name": "L.A. Bikini Mobile12+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/l-a-bikini-mobile/id1641935568",
+        "App ID": 1641935568,
+        "Price": "Free",
+        "App Rating": 0.0,
+        "No. of Ratings": 0,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Health & Fitness",
+            "Financial Info",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Sensitive Info"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contacts",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Health & Fitness": [
+                "Health"
+            ],
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number",
+                "Other User Contact Info"
+            ],
+            "User Content": [
+                "Emails or Text Messages",
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Contacts": [
+                "Contacts"
+            ]
+        }
+    },
+    "data_track": {}
+}

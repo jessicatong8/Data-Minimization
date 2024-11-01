@@ -1,0 +1,57 @@
+{
+    "app_info": {
+        "App Name": "Constant Contact ListBuilder4+",
+        "App Category": "Business",
+        "URL": "https://apps.apple.com/us/app/constant-contact-listbuilder/id1059782568",
+        "App ID": 1059782568,
+        "Price": "Free",
+        "App Rating": 4.4,
+        "No. of Ratings": 50,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number",
+                "Other User Contact Info"
+            ]
+        }
+    },
+    "data_track": {}
+}

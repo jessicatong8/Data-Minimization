@@ -1,0 +1,83 @@
+{
+    "app_info": {
+        "App Name": "TrendBoard Outlet12+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/trendboard-outlet/id1461544521",
+        "App ID": 1461544521,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 6,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Search History",
+            "Browsing History",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ]
+        },
+        "Product Personalization": {
+            "Purchases": [
+                "Purchase History"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Search History": [
+                "Search History"
+            ],
+            "Browsing History": [
+                "Browsing History"
+            ]
+        },
+        "Product Personalization": {
+            "Search History": [
+                "Search History"
+            ],
+            "Browsing History": [
+                "Browsing History"
+            ]
+        },
+        "App Functionality": {
+            "Search History": [
+                "Search History"
+            ],
+            "Browsing History": [
+                "Browsing History"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

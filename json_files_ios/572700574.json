@@ -1,0 +1,99 @@
+{
+    "app_info": {
+        "App Name": "FlightStats4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/flightstats/id572700574",
+        "App ID": 572700574,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 61200,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Search History",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Search History",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Search History": [
+                "Search History"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Analytics": {
+            "Search History": [
+                "Search History"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ]
+        }
+    },
+    "data_track": {
+        "Search History": [
+            "Search History"
+        ],
+        "Identifiers": [
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Product Interaction"
+        ]
+    }
+}

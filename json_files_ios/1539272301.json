@@ -1,0 +1,83 @@
+{
+    "app_info": {
+        "App Name": "ChatHub Random Stranger Chat17+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/chathub-random-stranger-chat/id1539272301",
+        "App ID": 1539272301,
+        "Price": "Free",
+        "App Rating": 4.1,
+        "No. of Ratings": 288,
+        "Offers In-App Purchases": true,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Advertising Data",
+                "Other Usage Data"
+            ]
+        },
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Other Usage Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

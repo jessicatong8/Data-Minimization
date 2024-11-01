@@ -1,0 +1,72 @@
+{
+    "app_info": {
+        "App Name": "\u6728\u5de5\u7231\u597d\u202a\u8005\u202c17+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/%E6%9C%A8%E5%B7%A5%E7%88%B1%E5%A5%BD%E8%80%85/id958073673",
+        "App ID": 958073673,
+        "Price": "Free",
+        "App Rating": 2.0,
+        "No. of Ratings": 2,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data",
+                "Customer Support"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Other User Content"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

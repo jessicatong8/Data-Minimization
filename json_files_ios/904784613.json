@@ -1,0 +1,84 @@
+{
+    "app_info": {
+        "App Name": "FashionGo Wholesale4+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/fashiongo-wholesale/id904784613",
+        "App ID": 904784613,
+        "Price": "Free",
+        "App Rating": 4.9,
+        "No. of Ratings": 4300,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Browsing History",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number",
+                "Other User Contact Info"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data",
+                "Other User Content"
+            ],
+            "Browsing History": [
+                "Browsing History"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

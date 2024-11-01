@@ -1,0 +1,52 @@
+{
+    "app_info": {
+        "App Name": "My Fare4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/my-fare/id1469349669",
+        "App ID": 1469349669,
+        "Price": "Free",
+        "App Rating": 3.0,
+        "No. of Ratings": 2,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Financial Info",
+            "Contact Info",
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Purchases": [
+                "Purchase History"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_not_linked": {},
+    "data_track": {}
+}

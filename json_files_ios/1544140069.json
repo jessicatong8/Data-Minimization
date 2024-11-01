@@ -1,0 +1,70 @@
+{
+    "app_info": {
+        "App Name": "Mustard Food App12+",
+        "App Category": "Food & Drink",
+        "URL": "https://apps.apple.com/us/app/mustard-food-app/id1544140069",
+        "App ID": 1544140069,
+        "Price": "Free",
+        "App Rating": 4.9,
+        "No. of Ratings": 34,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Purchases",
+            "Financial Info",
+            "Location",
+            "Contact Info",
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

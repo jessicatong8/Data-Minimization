@@ -1,0 +1,52 @@
+{
+    "app_info": {
+        "App Name": "MyVTech Baby Pro4+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/myvtech-baby-pro/id1542759321",
+        "App ID": 1542759321,
+        "Price": "Free",
+        "App Rating": 2.9,
+        "No. of Ratings": 34,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contact Info",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Name"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

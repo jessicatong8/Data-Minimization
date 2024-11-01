@@ -1,0 +1,67 @@
+{
+    "app_info": {
+        "App Name": "Tannico \u2014 Negozio di vino17+",
+        "App Category": "Food & Drink",
+        "URL": "https://apps.apple.com/us/app/tannico-negozio-di-vino/id998320211",
+        "App ID": 998320211,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 3,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Physical Address",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Other User Contact Info"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

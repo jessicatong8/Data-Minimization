@@ -1,0 +1,68 @@
+{
+    "app_info": {
+        "App Name": "Upflix4+",
+        "App Category": "Entertainment",
+        "URL": "https://apps.apple.com/us/app/upflix/id562782540",
+        "App ID": 562782540,
+        "Price": "Free",
+        "App Rating": 4.3,
+        "No. of Ratings": 3600,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {},
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "Product Personalization": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Product Interaction",
+            "Advertising Data"
+        ],
+        "Diagnostics": [
+            "Crash Data",
+            "Performance Data"
+        ]
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "app_info": {
+        "App Name": "redBus - Bus Booking App4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/redbus-bus-booking-app/id733712604",
+        "App ID": 733712604,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 2400,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Location",
+            "User Content",
+            "Identifiers",
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        },
+        "Analytics": {
+            "Contact Info": [
+                "Phone Number"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Email Address",
+                "Phone Number"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Developer's Advertising or Marketing": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Location": [
+                "Precise Location"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

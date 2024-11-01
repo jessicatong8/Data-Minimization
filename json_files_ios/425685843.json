@@ -1,0 +1,57 @@
+{
+    "app_info": {
+        "App Name": "Serve4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/serve/id425685843",
+        "App ID": 425685843,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 12500,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Location",
+            "Contact Info",
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Other Financial Info"
+            ],
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Other User Contact Info"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

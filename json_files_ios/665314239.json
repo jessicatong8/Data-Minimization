@@ -1,0 +1,71 @@
+{
+    "app_info": {
+        "App Name": "K95.5 Tulsa Today\u2019s Country9+",
+        "App Category": "Music",
+        "URL": "https://apps.apple.com/us/app/k95-5-tulsa-todays-country/id665314239",
+        "App ID": 665314239,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 45,
+        "Offers In-App Purchases": false,
+        "Age Rating": "9+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location",
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Precise Location"
+        ],
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

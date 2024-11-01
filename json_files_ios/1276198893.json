@@ -1,0 +1,86 @@
+{
+    "app_info": {
+        "App Name": "Garmin Drive\u202a\u2122\u202c4+",
+        "App Category": "Navigation",
+        "URL": "https://apps.apple.com/us/app/garmin-drive/id1276198893",
+        "App ID": 1276198893,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 5700,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Contacts",
+            "User Content",
+            "Search History"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "User Content": [
+                "Audio Data"
+            ]
+        },
+        "Product Personalization": {
+            "User Content": [
+                "Audio Data"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Audio Data",
+                "Customer Support"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Physical Address"
+            ],
+            "Contacts": [
+                "Contacts"
+            ],
+            "User Content": [
+                "Audio Data"
+            ],
+            "Search History": [
+                "Search History"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "Other Purposes": {
+            "Location": [
+                "Precise Location"
+            ]
+        }
+    },
+    "data_track": {}
+}

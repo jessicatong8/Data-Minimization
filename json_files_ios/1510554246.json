@@ -1,0 +1,86 @@
+{
+    "app_info": {
+        "App Name": "Just Play - Sports4+",
+        "App Category": "Sports",
+        "URL": "https://apps.apple.com/us/app/just-play-sports/id1510554246",
+        "App ID": 1510554246,
+        "Price": "Free",
+        "App Rating": 4.9,
+        "No. of Ratings": 4700,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Contacts"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Contacts",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address"
+            ]
+        },
+        "Analytics": {
+            "Contact Info": [
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Name"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Name",
+                "Phone Number"
+            ],
+            "Contacts": [
+                "Contacts"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Contacts": [
+            "Contacts"
+        ]
+    }
+}

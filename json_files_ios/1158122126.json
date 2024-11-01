@@ -1,0 +1,59 @@
+{
+    "app_info": {
+        "App Name": "POP-UP SHOP9+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/pop-up-shop/id1158122126",
+        "App ID": 1158122126,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 76,
+        "Offers In-App Purchases": false,
+        "Age Rating": "9+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

@@ -1,0 +1,55 @@
+{
+    "app_info": {
+        "App Name": "Green Dot - Mobile Banking4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/green-dot-mobile-banking/id437092808",
+        "App ID": 437092808,
+        "Price": "Free",
+        "App Rating": 3.5,
+        "No. of Ratings": 10800,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "User Content": [
+                "Customer Support"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

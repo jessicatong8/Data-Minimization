@@ -1,0 +1,95 @@
+{
+    "app_info": {
+        "App Name": "Apartments.com Rental Finder4+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/apartments-com-rental-finder/id319836632",
+        "App ID": 319836632,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 313700,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Search History",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info",
+                "Credit Info",
+                "Other Financial Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Search History": [
+                "Search History"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Search History": [
+                "Search History"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Search History": [
+                "Search History"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

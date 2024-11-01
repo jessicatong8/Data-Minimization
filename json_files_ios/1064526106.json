@@ -1,0 +1,64 @@
+{
+    "app_info": {
+        "App Name": "AccuroFit4+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/accurofit/id1064526106",
+        "App ID": 1064526106,
+        "Price": "Free",
+        "App Rating": 3.8,
+        "No. of Ratings": 191,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Health & Fitness",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "User Content",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Contact Info": [
+                "Name"
+            ]
+        },
+        "App Functionality": {
+            "Health & Fitness": [
+                "Health",
+                "Fitness"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Photos or Videos"
+            ]
+        },
+        "Other Purposes": {
+            "Location": [
+                "Coarse Location"
+            ]
+        }
+    },
+    "data_track": {}
+}

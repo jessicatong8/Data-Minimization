@@ -1,0 +1,121 @@
+{
+    "app_info": {
+        "App Name": "Sultan \u2013 Online Shopping12+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/sultan-online-shopping/id1177427819",
+        "App ID": 1177427819,
+        "Price": "Free",
+        "App Rating": 2.7,
+        "No. of Ratings": 145,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Purchases",
+            "Contact Info",
+            "Search History",
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Search History",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Search History": [
+                "Search History"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Product Personalization": {
+            "Search History": [
+                "Search History"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Other Financial Info"
+            ],
+            "Search History": [
+                "Search History"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Purchases": [
+            "Purchase History"
+        ],
+        "Contact Info": [
+            "Email Address",
+            "Phone Number"
+        ],
+        "Search History": [
+            "Search History"
+        ],
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ]
+    }
+}

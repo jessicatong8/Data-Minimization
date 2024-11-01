@@ -1,0 +1,64 @@
+{
+    "app_info": {
+        "App Name": "Athes - Youth Sports Training4+",
+        "App Category": "Sports",
+        "URL": "https://apps.apple.com/us/app/athes-youth-sports-training/id1594604341",
+        "App ID": 1594604341,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 26,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data",
+                "Other Usage Data"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Credit Info"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ]
+    }
+}

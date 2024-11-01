@@ -1,0 +1,101 @@
+{
+    "app_info": {
+        "App Name": "YOYO-Meet new friends be real17+",
+        "App Category": "Entertainment",
+        "URL": "https://apps.apple.com/us/app/yoyo-meet-new-friends-be-real/id1516778766",
+        "App ID": 1516778766,
+        "Price": "Free",
+        "App Rating": 3.3,
+        "No. of Ratings": 64,
+        "Offers In-App Purchases": true,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location",
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Location",
+            "User Content",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data",
+                "Gameplay Content",
+                "Customer Support",
+                "Other User Content"
+            ],
+            "Usage Data": [
+                "Other Usage Data"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Other Purposes": {
+            "Purchases": [
+                "Purchase History"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "Product Personalization": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Other Diagnostic Data"
+            ]
+        },
+        "Other Purposes": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Coarse Location"
+        ],
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

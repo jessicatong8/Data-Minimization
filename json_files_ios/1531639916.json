@@ -1,0 +1,62 @@
+{
+    "app_info": {
+        "App Name": "Peeps - Make New Friends12+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/peeps-make-new-friends/id1531639916",
+        "App ID": 1531639916,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 8500,
+        "Offers In-App Purchases": true,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Name"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID"
+        ],
+        "Usage Data": [
+            "Product Interaction"
+        ]
+    }
+}

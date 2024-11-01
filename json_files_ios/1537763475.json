@@ -1,0 +1,95 @@
+{
+    "app_info": {
+        "App Name": "N\u00fcrnbergMOBIL4+",
+        "App Category": "Navigation",
+        "URL": "https://apps.apple.com/us/app/n%C3%BCrnbergmobil/id1537763475",
+        "App ID": 1537763475,
+        "Price": "Free",
+        "App Rating": 1.0,
+        "No. of Ratings": 1,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Financial Info",
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Search History"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name"
+            ],
+            "User Content": [
+                "Emails or Text Messages"
+            ]
+        },
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name"
+            ]
+        },
+        "Product Personalization": {
+            "Purchases": [
+                "Purchase History"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Financial Info": [
+                "Payment Info",
+                "Credit Info"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Emails or Text Messages",
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Other Purposes": {
+            "User Content": [
+                "Emails or Text Messages",
+                "Photos or Videos"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Search History": [
+                "Search History"
+            ]
+        }
+    },
+    "data_track": {}
+}

@@ -1,0 +1,136 @@
+{
+    "app_info": {
+        "App Name": "TANIZ4+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/taniz/id1503451649",
+        "App ID": 1503451649,
+        "Price": "Free",
+        "App Rating": 0.0,
+        "No. of Ratings": 0,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Contact Info",
+            "Contacts",
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Contacts",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Purchases",
+            "Financial Info",
+            "Location",
+            "Contact Info",
+            "Search History",
+            "Browsing History",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Phone Number"
+            ],
+            "Contacts": [
+                "Contacts"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Phone Number"
+            ],
+            "Contacts": [
+                "Contacts"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Name"
+            ]
+        },
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Search History": [
+                "Search History"
+            ],
+            "Browsing History": [
+                "Browsing History"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "Other Purposes": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Name",
+                "Other User Contact Info"
+            ]
+        }
+    },
+    "data_track": {
+        "Contact Info": [
+            "Email Address",
+            "Phone Number"
+        ],
+        "Contacts": [
+            "Contacts"
+        ],
+        "Identifiers": [
+            "User ID"
+        ]
+    }
+}

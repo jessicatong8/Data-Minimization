@@ -1,0 +1,120 @@
+{
+    "app_info": {
+        "App Name": "TIER - Move Better17+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/tier-move-better/id1436140272",
+        "App ID": 1436140272,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 2700,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Sensitive Info",
+            "Diagnostics",
+            "Other Data"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Developer's Advertising or Marketing": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ]
+        },
+        "Analytics": {
+            "Location": [
+                "Precise Location"
+            ],
+            "User Content": [
+                "Other User Content"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Customer Support",
+                "Other User Content"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ]
+        }
+    },
+    "data_track": {
+        "Usage Data": [
+            "Product Interaction"
+        ]
+    }
+}

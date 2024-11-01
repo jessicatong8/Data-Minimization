@@ -1,0 +1,58 @@
+{
+    "app_info": {
+        "App Name": "U.S. Bank Access\u00ae OnlineMobile4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/u-s-bank-access-onlinemobile/id916941065",
+        "App ID": 916941065,
+        "Price": "Free",
+        "App Rating": 4.4,
+        "No. of Ratings": 2300,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Emails or Text Messages"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Photos or Videos"
+            ]
+        }
+    },
+    "data_track": {}
+}

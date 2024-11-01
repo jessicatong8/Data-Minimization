@@ -1,0 +1,61 @@
+{
+    "app_info": {
+        "App Name": "ErgRace Online4+",
+        "App Category": "Sports",
+        "URL": "https://apps.apple.com/us/app/ergrace-online/id1509799588",
+        "App ID": 1509799588,
+        "Price": "Free",
+        "App Rating": 3.1,
+        "No. of Ratings": 9,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

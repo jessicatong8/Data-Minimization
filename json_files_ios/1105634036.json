@@ -1,0 +1,49 @@
+{
+    "app_info": {
+        "App Name": "Gale Healthcare4+",
+        "App Category": "Medical",
+        "URL": "https://apps.apple.com/us/app/gale-healthcare/id1105634036",
+        "App ID": 1105634036,
+        "Price": "Free",
+        "App Rating": 2.9,
+        "No. of Ratings": 49,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_track": {}
+}

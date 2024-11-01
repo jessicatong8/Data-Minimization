@@ -1,0 +1,77 @@
+{
+    "app_info": {
+        "App Name": "Step Tracker - Pedometer, Step4+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/step-tracker-pedometer-step/id1483193691",
+        "App ID": 1483193691,
+        "Price": "Free",
+        "App Rating": 4.9,
+        "No. of Ratings": 994,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Health & Fitness",
+            "Location",
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Health & Fitness": [
+                "Health",
+                "Fitness"
+            ],
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Advertising Data"
+        ]
+    }
+}

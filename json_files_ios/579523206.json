@@ -1,0 +1,70 @@
+{
+    "app_info": {
+        "App Name": "Zalo12+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/zalo/id579523206",
+        "App ID": 579523206,
+        "Price": "Free",
+        "App Rating": 3.1,
+        "No. of Ratings": 1500,
+        "Offers In-App Purchases": true,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Contacts",
+            "User Content",
+            "Identifiers",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Location"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Product Personalization": {
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Name",
+                "Phone Number"
+            ],
+            "Contacts": [
+                "Contacts"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ]
+        }
+    },
+    "data_track": {}
+}

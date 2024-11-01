@@ -1,0 +1,63 @@
+{
+    "app_info": {
+        "App Name": "WS On Demand4+",
+        "App Category": "Education",
+        "URL": "https://apps.apple.com/us/app/ws-on-demand/id1475486045",
+        "App ID": 1475486045,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 311,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Identifiers",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "User Content"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "User Content": [
+                "Photos or Videos",
+                "Customer Support"
+            ]
+        }
+    },
+    "data_track": {}
+}

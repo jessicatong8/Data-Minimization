@@ -1,0 +1,103 @@
+{
+    "app_info": {
+        "App Name": "Zing AI: Home & Gym Workouts4+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/zing-ai-home-gym-workouts/id1552207792",
+        "App ID": 1552207792,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 1200,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Health & Fitness",
+            "Contact Info",
+            "User Content",
+            "Browsing History",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Health & Fitness": [
+                "Health",
+                "Fitness"
+            ],
+            "Browsing History": [
+                "Browsing History"
+            ]
+        },
+        "Product Personalization": {
+            "Health & Fitness": [
+                "Health",
+                "Fitness"
+            ],
+            "Contact Info": [
+                "Name"
+            ],
+            "Browsing History": [
+                "Browsing History"
+            ]
+        },
+        "App Functionality": {
+            "Health & Fitness": [
+                "Health",
+                "Fitness"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "Other Purposes": {
+            "User Content": [
+                "Customer Support"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Product Interaction"
+        ]
+    }
+}

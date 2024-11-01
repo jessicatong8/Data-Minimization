@@ -1,0 +1,79 @@
+{
+    "app_info": {
+        "App Name": "Fortune City - Expense Tracker4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/fortune-city-expense-tracker/id1172713884",
+        "App ID": 1172713884,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 4600,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "Contacts",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Name"
+            ],
+            "Contacts": [
+                "Contacts"
+            ],
+            "User Content": [
+                "Customer Support",
+                "Other User Content"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

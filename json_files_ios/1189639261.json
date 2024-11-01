@@ -1,0 +1,78 @@
+{
+    "app_info": {
+        "App Name": "mFood\u2122 - Food Truck Finder App4+",
+        "App Category": "Food & Drink",
+        "URL": "https://apps.apple.com/us/app/mfood-food-truck-finder-app/id1189639261",
+        "App ID": 1189639261,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 26,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Contact Info",
+            "Identifiers",
+            "Sensitive Info"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Location",
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Contact Info": [
+                "Name"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number",
+                "Other User Contact Info"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Location": [
+                "Precise Location"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Customer Support"
+            ]
+        }
+    },
+    "data_track": {}
+}

@@ -1,0 +1,81 @@
+{
+    "app_info": {
+        "App Name": "My Study Life - School Planner4+",
+        "App Category": "Education",
+        "URL": "https://apps.apple.com/us/app/my-study-life-school-planner/id910639339",
+        "App ID": 910639339,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 5200,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Contact Info": [
+                "Email Address"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "User Content": [
+                "Emails or Text Messages",
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Contact Info": [
+            "Email Address",
+            "Name"
+        ],
+        "User Content": [
+            "Emails or Text Messages"
+        ],
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

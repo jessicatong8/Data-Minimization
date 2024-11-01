@@ -1,0 +1,102 @@
+{
+    "app_info": {
+        "App Name": "Virta Health17+",
+        "App Category": "Medical",
+        "URL": "https://apps.apple.com/us/app/virta-health/id1164603213",
+        "App ID": 1164603213,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 283,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Health & Fitness",
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Search History"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Health & Fitness": [
+                "Health"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Health & Fitness": [
+                "Health"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Physical Address",
+                "Other User Contact Info"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Product Personalization": {
+            "Search History": [
+                "Search History"
+            ]
+        },
+        "App Functionality": {
+            "Search History": [
+                "Search History"
+            ]
+        }
+    },
+    "data_track": {}
+}

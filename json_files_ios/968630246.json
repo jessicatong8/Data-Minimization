@@ -1,0 +1,60 @@
+{
+    "app_info": {
+        "App Name": "LawnStarter4+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/lawnstarter/id968630246",
+        "App ID": 968630246,
+        "Price": "Free",
+        "App Rating": 4.4,
+        "No. of Ratings": 6200,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_track": {}
+}

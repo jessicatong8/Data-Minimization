@@ -1,0 +1,76 @@
+{
+    "app_info": {
+        "App Name": "2nd.MD17+",
+        "App Category": "Medical",
+        "URL": "https://apps.apple.com/us/app/2nd-md/id638171847",
+        "App ID": 638171847,
+        "Price": "Free",
+        "App Rating": 4.9,
+        "No. of Ratings": 3800,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Contact Info": [
+                "Email Address",
+                "Phone Number"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Physical Address"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Name"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Other User Contact Info"
+            ]
+        }
+    },
+    "data_track": {}
+}

@@ -1,0 +1,68 @@
+{
+    "app_info": {
+        "App Name": "Stanford Health Care MyHealth4+",
+        "App Category": "Medical",
+        "URL": "https://apps.apple.com/us/app/stanford-health-care-myhealth/id922978966",
+        "App ID": 922978966,
+        "Price": "Free",
+        "App Rating": 3.8,
+        "No. of Ratings": 900,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Health & Fitness",
+            "Financial Info",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Sensitive Info"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Health & Fitness": [
+                "Health",
+                "Fitness"
+            ],
+            "Financial Info": [
+                "Payment Info",
+                "Other Financial Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ]
+        }
+    },
+    "data_track": {}
+}

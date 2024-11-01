@@ -1,0 +1,71 @@
+{
+    "app_info": {
+        "App Name": "Singol \u4ea4\u53cbAPP17+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/singol-%E4%BA%A4%E5%8F%8Bapp/id1434285156",
+        "App ID": 1434285156,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 199,
+        "Offers In-App Purchases": true,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Usage Data",
+            "Sensitive Info",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

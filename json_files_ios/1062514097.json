@@ -1,0 +1,80 @@
+{
+    "app_info": {
+        "App Name": "\u041f\u043e\u0433\u043e\u0434\u0430 \u0432 \u0433\u043e\u0440\u043e\u0434\u0430\u0445 \u0420\u043e\u0441\u0441\u0438\u202a\u0438\u202c4+",
+        "App Category": "Weather",
+        "URL": "https://apps.apple.com/us/app/%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0-%D0%B2-%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0%D1%85-%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B8/id1062514097",
+        "App ID": 1062514097,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 3,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Advertising Data"
+        ]
+    }
+}

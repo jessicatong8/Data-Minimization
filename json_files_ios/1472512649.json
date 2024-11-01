@@ -1,0 +1,53 @@
+{
+    "app_info": {
+        "App Name": "WorthPoint12+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/worthpoint/id1472512649",
+        "App ID": 1472512649,
+        "Price": "Free",
+        "App Rating": 3.3,
+        "No. of Ratings": 6,
+        "Offers In-App Purchases": true,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_track": {}
+}

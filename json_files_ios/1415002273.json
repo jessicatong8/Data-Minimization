@@ -1,0 +1,65 @@
+{
+    "app_info": {
+        "App Name": "Oregon Lottery17+",
+        "App Category": "Entertainment",
+        "URL": "https://apps.apple.com/us/app/oregon-lottery/id1415002273",
+        "App ID": 1415002273,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 20200,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Name"
+            ]
+        }
+    },
+    "data_track": {}
+}

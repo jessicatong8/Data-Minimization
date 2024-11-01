@@ -1,0 +1,58 @@
+{
+    "app_info": {
+        "App Name": "Palladium Hotel Group4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/palladium-hotel-group/id520047102",
+        "App ID": 520047102,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 4800,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Search History",
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Name"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Search History": [
+                "Search History"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

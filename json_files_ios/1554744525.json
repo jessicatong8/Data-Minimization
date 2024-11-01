@@ -1,0 +1,74 @@
+{
+    "app_info": {
+        "App Name": "NewCall - Flash Call & SMS4+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/newcall-flash-call-sms/id1554744525",
+        "App ID": 1554744525,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 5900,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contacts",
+            "User Content",
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Contacts": [
+                "Contacts"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Other Purposes": {
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

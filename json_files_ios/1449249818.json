@@ -1,0 +1,74 @@
+{
+    "app_info": {
+        "App Name": "Raklet17+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/raklet/id1449249818",
+        "App ID": 1449249818,
+        "Price": "Free",
+        "App Rating": 3.5,
+        "No. of Ratings": 6,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Contact Info",
+            "Diagnostics"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number",
+                "Other User Contact Info"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Contact Info": [
+            "Email Address"
+        ],
+        "Diagnostics": [
+            "Crash Data"
+        ]
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "app_info": {
+        "App Name": "AFFL GO12+",
+        "App Category": "Sports",
+        "URL": "https://apps.apple.com/us/app/affl-go/id1440853660",
+        "App ID": 1440853660,
+        "Price": "Free",
+        "App Rating": 1.0,
+        "No. of Ratings": 4,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "User Content"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "User Content": [
+                "Gameplay Content",
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Gameplay Content",
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "User Content": [
+                "Other User Content"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "User Content": [
+                "Other User Content"
+            ]
+        },
+        "Other Purposes": {
+            "User Content": [
+                "Other User Content"
+            ]
+        }
+    },
+    "data_track": {}
+}

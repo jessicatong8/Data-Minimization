@@ -1,0 +1,64 @@
+{
+    "app_info": {
+        "App Name": "SPOTTR - shooting tracker12+",
+        "App Category": "Sports",
+        "URL": "https://apps.apple.com/us/app/spottr-shooting-tracker/id1589950981",
+        "App ID": 1589950981,
+        "Price": "Free",
+        "App Rating": 1.6,
+        "No. of Ratings": 7,
+        "Offers In-App Purchases": true,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Usage Data": [
+            "Product Interaction",
+            "Advertising Data",
+            "Other Usage Data"
+        ],
+        "Diagnostics": [
+            "Crash Data",
+            "Performance Data"
+        ]
+    }
+}

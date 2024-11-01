@@ -1,0 +1,101 @@
+{
+    "app_info": {
+        "App Name": "Intermarch\u00e9 : Drive, livraison12+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/intermarch%C3%A9-drive-livraison/id605305737",
+        "App ID": 605305737,
+        "Price": "Free",
+        "App Rating": 3.8,
+        "No. of Ratings": 12,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Contact Info",
+            "Identifiers",
+            "Diagnostics"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contact Info",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Developer's Advertising or Marketing": {
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Other User Contact Info"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Other User Contact Info"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Contact Info": [
+            "Email Address",
+            "Phone Number"
+        ],
+        "Identifiers": [
+            "User ID"
+        ],
+        "Diagnostics": [
+            "Crash Data"
+        ]
+    }
+}

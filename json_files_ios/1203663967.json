@@ -1,0 +1,81 @@
+{
+    "app_info": {
+        "App Name": "Bajaj Finserv Wallet4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/bajaj-finserv-wallet/id1203663967",
+        "App ID": 1203663967,
+        "Price": "Free",
+        "App Rating": 4.4,
+        "No. of Ratings": 176,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Financial Info",
+            "Contact Info"
+        ],
+        "Data Linked to You": [
+            "Financial Info",
+            "Location",
+            "Contact Info",
+            "Contacts"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Name",
+                "Phone Number"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Phone Number"
+            ],
+            "Contacts": [
+                "Contacts"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Contacts": [
+                "Contacts"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Financial Info": [
+            "Payment Info"
+        ],
+        "Contact Info": [
+            "Email Address",
+            "Phone Number"
+        ]
+    }
+}

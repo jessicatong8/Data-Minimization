@@ -1,0 +1,90 @@
+{
+    "app_info": {
+        "App Name": "Cycles: Period & Cycle Tracker9+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/cycles-period-cycle-tracker/id577187307",
+        "App ID": 577187307,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 16800,
+        "Offers In-App Purchases": true,
+        "Age Rating": "9+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Health & Fitness",
+            "User Content",
+            "Identifiers",
+            "Sensitive Info",
+            "Other Data"
+        ],
+        "Data Not Linked to You": [
+            "Purchases",
+            "Location",
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Health & Fitness": [
+                "Health"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ]
+        },
+        "App Functionality": {
+            "Health & Fitness": [
+                "Health"
+            ],
+            "User Content": [
+                "Other User Content"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "User Content": [
+                "Customer Support"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

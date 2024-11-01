@@ -1,0 +1,64 @@
+{
+    "app_info": {
+        "App Name": "Digital Nomads App - Nomad 104+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/digital-nomads-app-nomad-10/id1475611709",
+        "App ID": 1475611709,
+        "Price": "Free",
+        "App Rating": 3.4,
+        "No. of Ratings": 5,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Name"
+            ],
+            "User Content": [
+                "Emails or Text Messages"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ],
+            "User Content": [
+                "Emails or Text Messages"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

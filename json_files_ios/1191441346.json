@@ -1,0 +1,64 @@
+{
+    "app_info": {
+        "App Name": "Solitaire - Classic Card Games12+",
+        "App Category": "Games",
+        "URL": "https://apps.apple.com/us/app/solitaire-classic-card-games/id1191441346",
+        "App ID": 1191441346,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 7900,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Diagnostics",
+            "Other Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        },
+        "Analytics": {
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

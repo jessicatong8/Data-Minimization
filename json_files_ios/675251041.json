@@ -1,0 +1,51 @@
+{
+    "app_info": {
+        "App Name": "WHAM WX4+",
+        "App Category": "Weather",
+        "URL": "https://apps.apple.com/us/app/wham-wx/id675251041",
+        "App ID": 675251041,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 161,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {},
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Precise Location"
+        ]
+    }
+}

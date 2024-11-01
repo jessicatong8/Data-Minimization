@@ -1,0 +1,85 @@
+{
+    "app_info": {
+        "App Name": "PawBoost - Lost and Found Pets4+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/pawboost-lost-and-found-pets/id1131343030",
+        "App ID": 1131343030,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 544,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Purchases",
+            "Contact Info",
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address"
+            ]
+        },
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Other User Content"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Phone Number"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID"
+        ]
+    }
+}

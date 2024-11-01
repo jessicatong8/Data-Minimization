@@ -1,0 +1,50 @@
+{
+    "app_info": {
+        "App Name": "Return Finance4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/return-finance/id6443918990",
+        "App ID": 6443918990,
+        "Price": "Free",
+        "App Rating": 3.7,
+        "No. of Ratings": 3,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ]
+        }
+    },
+    "data_track": {}
+}

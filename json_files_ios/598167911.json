@@ -1,0 +1,71 @@
+{
+    "app_info": {
+        "App Name": "\u8d70\u904d\u7f8e\u56fd\u5168\u96c6\u6709\u58f0\u9ad8\u6e05HD4+",
+        "App Category": "Weather",
+        "URL": "https://apps.apple.com/us/app/%E8%B5%B0%E9%81%8D%E7%BE%8E%E5%9B%BD%E5%85%A8%E9%9B%86%E6%9C%89%E5%A3%B0%E9%AB%98%E6%B8%85hd/id598167911",
+        "App ID": 598167911,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 666,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Audio Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ]
+    }
+}

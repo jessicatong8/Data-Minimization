@@ -1,0 +1,76 @@
+{
+    "app_info": {
+        "App Name": "PalmPay17+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/palmpay/id1479656820",
+        "App ID": 1479656820,
+        "Price": "Free",
+        "App Rating": 4.3,
+        "No. of Ratings": 16700,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Location",
+            "Contact Info",
+            "Contacts",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Search History",
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Contacts": [
+                "Contacts"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Advertising Data",
+                "Other Usage Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Other User Contact Info"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Customer Support",
+                "Other User Content"
+            ],
+            "Search History": [
+                "Search History"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_track": {}
+}

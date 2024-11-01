@@ -1,0 +1,56 @@
+{
+    "app_info": {
+        "App Name": "Official NY Lottery17+",
+        "App Category": "Entertainment",
+        "URL": "https://apps.apple.com/us/app/official-ny-lottery/id577471940",
+        "App ID": 577471940,
+        "Price": "Free",
+        "App Rating": 1.8,
+        "No. of Ratings": 1100,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ]
+        }
+    },
+    "data_track": {}
+}

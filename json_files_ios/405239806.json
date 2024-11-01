@@ -1,0 +1,100 @@
+{
+    "app_info": {
+        "App Name": "\u308b\u308b\u3076-\u304a\u3067\u304b\u3051\u30fb\u65c5\u884c\u60c5\u5831\uff06\u5bbf\u6cca\u4e88\u202a\u7d04\u202c4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/%E3%82%8B%E3%82%8B%E3%81%B6-%E3%81%8A%E3%81%A7%E3%81%8B%E3%81%91-%E6%97%85%E8%A1%8C%E6%83%85%E5%A0%B1-%E5%AE%BF%E6%B3%8A%E4%BA%88%E7%B4%84/id405239806",
+        "App ID": 405239806,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 4,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics",
+            "Other Data"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        },
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Coarse Location"
+        ],
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ],
+        "Usage Data": [
+            "Product Interaction",
+            "Advertising Data"
+        ],
+        "Diagnostics": [
+            "Crash Data",
+            "Performance Data"
+        ]
+    }
+}

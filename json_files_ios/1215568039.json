@@ -1,0 +1,70 @@
+{
+    "app_info": {
+        "App Name": "BLOOM Bike and Scooter Sharing4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/bloom-bike-and-scooter-sharing/id1215568039",
+        "App ID": 1215568039,
+        "Price": "Free",
+        "App Rating": 3.9,
+        "No. of Ratings": 296,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {},
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

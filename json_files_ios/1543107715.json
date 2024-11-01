@@ -1,0 +1,52 @@
+{
+    "app_info": {
+        "App Name": "La Nacho17+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/la-nacho/id1543107715",
+        "App ID": 1543107715,
+        "Price": "Free",
+        "App Rating": 0.0,
+        "No. of Ratings": 0,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Location",
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Purchases",
+            "Contact Info"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Physical Address"
+            ]
+        }
+    },
+    "data_track": {}
+}

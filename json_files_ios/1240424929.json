@@ -1,0 +1,70 @@
+{
+    "app_info": {
+        "App Name": "Call Record NOW4+",
+        "App Category": "Business",
+        "URL": "https://apps.apple.com/us/app/call-record-now/id1240424929",
+        "App ID": 1240424929,
+        "Price": "Free",
+        "App Rating": 4.3,
+        "No. of Ratings": 2200,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Location",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "Other Data"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Audio Data"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Other Data": [
+                "Other Data Types"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Phone Number"
+            ]
+        }
+    },
+    "data_track": {}
+}

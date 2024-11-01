@@ -1,0 +1,69 @@
+{
+    "app_info": {
+        "App Name": "Raising Cane's Chicken Fingers4+",
+        "App Category": "Food & Drink",
+        "URL": "https://apps.apple.com/us/app/raising-canes-chicken-fingers/id1530642656",
+        "App ID": 1530642656,
+        "Price": "Free",
+        "App Rating": 4.9,
+        "No. of Ratings": 156100,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location",
+            "Contact Info"
+        ],
+        "Data Linked to You": [
+            "Financial Info",
+            "Location",
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Precise Location"
+        ],
+        "Contact Info": [
+            "Physical Address",
+            "Email Address",
+            "Phone Number"
+        ]
+    }
+}

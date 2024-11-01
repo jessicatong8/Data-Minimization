@@ -1,0 +1,61 @@
+{
+    "app_info": {
+        "App Name": "O-KAM4+",
+        "App Category": "Developer Tools",
+        "URL": "https://apps.apple.com/us/app/o-kam/id1602054864",
+        "App ID": 1602054864,
+        "Price": "Free",
+        "App Rating": 3.8,
+        "No. of Ratings": 111,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {},
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Email Address",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Precise Location",
+            "Coarse Location"
+        ],
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

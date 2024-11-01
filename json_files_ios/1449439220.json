@@ -1,0 +1,82 @@
+{
+    "app_info": {
+        "App Name": "seventytwo4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/seventytwo/id1449439220",
+        "App ID": 1449439220,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 4,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Location",
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Product Personalization": {
+            "Financial Info": [
+                "Other Financial Info"
+            ],
+            "Location": [
+                "Precise Location"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Other Financial Info"
+            ],
+            "Location": [
+                "Precise Location"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

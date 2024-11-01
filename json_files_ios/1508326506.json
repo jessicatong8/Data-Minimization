@@ -1,0 +1,58 @@
+{
+    "app_info": {
+        "App Name": "EMMO - \u65e5\u8bb0\u4e0e\u7b14\u202a\u8bb0\u202c4+",
+        "App Category": "Utilities",
+        "URL": "https://apps.apple.com/us/app/emmo-%E6%97%A5%E8%AE%B0%E4%B8%8E%E7%AC%94%E8%AE%B0/id1508326506",
+        "App ID": 1508326506,
+        "Price": "Free",
+        "App Rating": 4.9,
+        "No. of Ratings": 25400,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID"
+        ]
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "app_info": {
+        "App Name": "ZKB Mobile Banking4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/zkb-mobile-banking/id428937855",
+        "App ID": 428937855,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 37,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info",
+                "Other Financial Info"
+            ],
+            "User Content": [
+                "Emails or Text Messages"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Advertising Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

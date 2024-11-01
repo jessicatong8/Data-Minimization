@@ -1,0 +1,75 @@
+{
+    "app_info": {
+        "App Name": "\u5594\u56fe\u95ea\u4f20\u2014\u7167\u7247\u76f4\u64ad\u5e73\u202a\u53f0\u202c12+",
+        "App Category": "Photo & Video",
+        "URL": "https://apps.apple.com/us/app/%E5%96%94%E5%9B%BE%E9%97%AA%E4%BC%A0-%E7%85%A7%E7%89%87%E7%9B%B4%E6%92%AD%E5%B9%B3%E5%8F%B0/id1097033159",
+        "App ID": 1097033159,
+        "Price": "Free",
+        "App Rating": 0.0,
+        "No. of Ratings": 0,
+        "Offers In-App Purchases": true,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Phone Number"
+            ]
+        },
+        "Other Purposes": {
+            "User Content": [
+                "Photos or Videos"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID"
+        ]
+    }
+}

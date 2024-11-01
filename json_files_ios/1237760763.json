@@ -1,0 +1,86 @@
+{
+    "app_info": {
+        "App Name": "Family Express12+",
+        "App Category": "Food & Drink",
+        "URL": "https://apps.apple.com/us/app/family-express/id1237760763",
+        "App ID": 1237760763,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 167,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "User Content",
+            "Diagnostics"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Contact Info": [
+                "Physical Address",
+                "Name"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Customer Support"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "User Content": [
+            "Customer Support"
+        ],
+        "Diagnostics": [
+            "Crash Data"
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "app_info": {
+        "App Name": "WearFit 2.012+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/wearfit-2-0/id1191273163",
+        "App ID": 1191273163,
+        "Price": "Free",
+        "App Rating": 2.6,
+        "No. of Ratings": 1700,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Diagnostics"
+        ],
+        "Data Linked to You": [
+            "Health & Fitness",
+            "Contact Info",
+            "Contacts",
+            "User Content",
+            "Diagnostics",
+            "Other Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "User Content"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Product Personalization": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Health & Fitness": [
+                "Fitness"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Contacts": [
+                "Contacts"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "User Content": [
+                "Emails or Text Messages"
+            ]
+        }
+    },
+    "data_track": {
+        "Diagnostics": [
+            "Crash Data"
+        ]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "app_info": {
+        "App Name": "Box Office Sim 24+",
+        "App Category": "Games",
+        "URL": "https://apps.apple.com/us/app/box-office-sim-2/id6443477185",
+        "App ID": 6443477185,
+        "Price": "Free",
+        "App Rating": 2.6,
+        "No. of Ratings": 116,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Usage Data": [
+            "Advertising Data"
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "app_info": {
+        "App Name": "Moments: for friends & family4+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/moments-for-friends-family/id1591493411",
+        "App ID": 1591493411,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 132,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Contact Info": [
+                "Name"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "User Content": [
+                "Gameplay Content"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Other Purposes": {
+            "Contact Info": [
+                "Phone Number",
+                "Other User Contact Info"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Other User Content"
+            ]
+        },
+        "Other Purposes": {
+            "User Content": [
+                "Emails or Text Messages"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_track": {}
+}

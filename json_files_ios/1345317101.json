@@ -1,0 +1,71 @@
+{
+    "app_info": {
+        "App Name": "Myduub17+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/myduub/id1345317101",
+        "App ID": 1345317101,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 10,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contacts",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contacts": [
+                "Contacts"
+            ],
+            "User Content": [
+                "Other User Content"
+            ]
+        }
+    },
+    "data_track": {}
+}

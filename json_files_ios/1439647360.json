@@ -1,0 +1,84 @@
+{
+    "app_info": {
+        "App Name": "Whimstay \u2013 Vacation Rentals4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/whimstay-vacation-rentals/id1439647360",
+        "App ID": 1439647360,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 274,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contact Info",
+            "Search History",
+            "Browsing History"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Developer's Advertising or Marketing": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ]
+        },
+        "Analytics": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Name",
+                "Phone Number"
+            ],
+            "Search History": [
+                "Search History"
+            ],
+            "Browsing History": [
+                "Browsing History"
+            ]
+        }
+    },
+    "data_track": {
+        "Contact Info": [
+            "Name"
+        ],
+        "Identifiers": [
+            "User ID"
+        ]
+    }
+}

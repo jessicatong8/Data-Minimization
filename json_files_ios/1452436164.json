@@ -1,0 +1,53 @@
+{
+    "app_info": {
+        "App Name": "FLEX Stronger4+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/flex-stronger/id1452436164",
+        "App ID": 1452436164,
+        "Price": "Free",
+        "App Rating": 4.2,
+        "No. of Ratings": 6,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

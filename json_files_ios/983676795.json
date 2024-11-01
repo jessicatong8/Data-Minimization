@@ -1,0 +1,79 @@
+{
+    "app_info": {
+        "App Name": "NV Energy12+",
+        "App Category": "Utilities",
+        "URL": "https://apps.apple.com/us/app/nv-energy/id983676795",
+        "App ID": 983676795,
+        "Price": "Free",
+        "App Rating": 1.9,
+        "No. of Ratings": 143,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Location",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Search History",
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Name"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Phone Number",
+                "Other User Contact Info"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Other Purposes": {
+            "Financial Info": [
+                "Credit Info"
+            ],
+            "Contact Info": [
+                "Other User Contact Info"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Search History": [
+                "Search History"
+            ],
+            "Usage Data": [
+                "Other Usage Data"
+            ]
+        },
+        "Product Personalization": {
+            "Usage Data": [
+                "Other Usage Data"
+            ]
+        },
+        "App Functionality": {
+            "Usage Data": [
+                "Other Usage Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

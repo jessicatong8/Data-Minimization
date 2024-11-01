@@ -1,0 +1,53 @@
+{
+    "app_info": {
+        "App Name": "Beans & Brews4+",
+        "App Category": "Food & Drink",
+        "URL": "https://apps.apple.com/us/app/beans-brews/id902029819",
+        "App ID": 902029819,
+        "Price": "Free",
+        "App Rating": 4.4,
+        "No. of Ratings": 284,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Location",
+            "Contact Info",
+            "Identifiers"
+        ]
+    },
+    "data_linked": {},
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Coarse Location"
+        ]
+    }
+}

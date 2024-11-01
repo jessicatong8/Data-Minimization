@@ -1,0 +1,81 @@
+{
+    "app_info": {
+        "App Name": "\u4e03\u54c1\u202a\u7f51\u202c4+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/%E4%B8%83%E5%93%81%E7%BD%91/id1645678914",
+        "App ID": 1645678914,
+        "Price": "Free",
+        "App Rating": 0.0,
+        "No. of Ratings": 0,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Location",
+            "Contact Info",
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Name"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Other Purposes": {
+            "User Content": [
+                "Photos or Videos"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Physical Address"
+            ]
+        },
+        "Other Purposes": {
+            "Usage Data": [
+                "Other Usage Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

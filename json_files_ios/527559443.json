@@ -1,0 +1,52 @@
+{
+    "app_info": {
+        "App Name": "itTaxi4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/ittaxi/id527559443",
+        "App ID": 527559443,
+        "Price": "Free",
+        "App Rating": 2.2,
+        "No. of Ratings": 15,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Location",
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "User Content": [
+                "Customer Support"
+            ],
+            "Diagnostics": [
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

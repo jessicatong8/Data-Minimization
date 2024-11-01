@@ -1,0 +1,76 @@
+{
+    "app_info": {
+        "App Name": "LendingPoint4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/lendingpoint/id1488985079",
+        "App ID": 1488985079,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 1300,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location"
+        ],
+        "Data Linked to You": [
+            "Financial Info",
+            "Location",
+            "Contact Info",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Diagnostics": [
+                "Other Diagnostic Data"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info",
+                "Credit Info"
+            ],
+            "Contact Info": [
+                "Physical Address"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "Other Purposes": {
+            "Location": [
+                "Coarse Location"
+            ]
+        }
+    },
+    "data_not_linked": {},
+    "data_track": {
+        "Location": [
+            "Coarse Location"
+        ]
+    }
+}

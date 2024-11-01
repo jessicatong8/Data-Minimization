@@ -1,0 +1,86 @@
+{
+    "app_info": {
+        "App Name": "PAYA | Real Estate in Iraq4+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/paya-real-estate-in-iraq/id1502059171",
+        "App ID": 1502059171,
+        "Price": "Free",
+        "App Rating": 4.4,
+        "No. of Ratings": 230,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "User Content"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "User Content": [
+                "Emails or Text Messages"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Other User Contact Info"
+            ],
+            "User Content": [
+                "Emails or Text Messages"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Other User Contact Info"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "User Content": [
+            "Emails or Text Messages"
+        ]
+    }
+}

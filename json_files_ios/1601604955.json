@@ -1,0 +1,53 @@
+{
+    "app_info": {
+        "App Name": "Snarf's Sandwiches4+",
+        "App Category": "Food & Drink",
+        "URL": "https://apps.apple.com/us/app/snarfs-sandwiches/id1601604955",
+        "App ID": 1601604955,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 463,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Contact Info"
+        ],
+        "Data Linked to You": [
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Contact Info": [
+            "Email Address"
+        ]
+    }
+}

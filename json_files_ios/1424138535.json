@@ -1,0 +1,73 @@
+{
+    "app_info": {
+        "App Name": "\u5bf9\u7684\u4eba-\u804c\u573a\u4eba\u604b\u7231\u76f8\u4eb2\u8131\u5355\u5e73\u202a\u53f0\u202c17+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/%E5%AF%B9%E7%9A%84%E4%BA%BA-%E8%81%8C%E5%9C%BA%E4%BA%BA%E6%81%8B%E7%88%B1%E7%9B%B8%E4%BA%B2%E8%84%B1%E5%8D%95%E5%B9%B3%E5%8F%B0/id1424138535",
+        "App ID": 1424138535,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 3,
+        "Offers In-App Purchases": true,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Contact Info": [
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID"
+        ]
+    }
+}

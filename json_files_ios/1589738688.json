@@ -1,0 +1,73 @@
+{
+    "app_info": {
+        "App Name": "Car MakeUp12+",
+        "App Category": "Games",
+        "URL": "https://apps.apple.com/us/app/car-makeup/id1589738688",
+        "App ID": 1589738688,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 8200,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location",
+            "Contact Info"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contact Info"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "User Content": [
+                "Gameplay Content",
+                "Customer Support"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Advertising Data",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Name"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Precise Location"
+        ],
+        "Contact Info": [
+            "Name"
+        ]
+    }
+}

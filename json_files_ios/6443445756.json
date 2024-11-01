@@ -1,0 +1,45 @@
+{
+    "app_info": {
+        "App Name": "Mood-Tracker4+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/mood-tracker/id6443445756",
+        "App ID": 6443445756,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 8,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {},
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Usage Data": [
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

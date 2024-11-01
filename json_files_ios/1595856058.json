@@ -1,0 +1,60 @@
+{
+    "app_info": {
+        "App Name": "STASH: Store, Search & Share4+",
+        "App Category": "Lifestyle",
+        "URL": "https://apps.apple.com/us/app/stash-store-search-share/id1595856058",
+        "App ID": 1595856058,
+        "Price": "Free",
+        "App Rating": 0.0,
+        "No. of Ratings": 0,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contact Info",
+            "Contacts",
+            "User Content",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Name"
+            ],
+            "Contacts": [
+                "Contacts"
+            ],
+            "User Content": [
+                "Emails or Text Messages",
+                "Customer Support",
+                "Other User Content"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

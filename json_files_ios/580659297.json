@@ -1,0 +1,60 @@
+{
+    "app_info": {
+        "App Name": "SVB Mobile Banking-Commercial4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/svb-mobile-banking-commercial/id580659297",
+        "App ID": 580659297,
+        "Price": "Free",
+        "App Rating": 3.1,
+        "No. of Ratings": 403,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number",
+                "Other User Contact Info"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ]
+        }
+    },
+    "data_track": {}
+}

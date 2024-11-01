@@ -1,0 +1,80 @@
+{
+    "app_info": {
+        "App Name": "VK Messenger: Live chat, calls12+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/vk-messenger-live-chat-calls/id1441659687",
+        "App ID": 1441659687,
+        "Price": "Free",
+        "App Rating": 2.1,
+        "No. of Ratings": 362,
+        "Offers In-App Purchases": true,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Contacts",
+            "User Content",
+            "Search History"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Contacts": [
+                "Contacts"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Contacts": [
+                "Contacts"
+            ],
+            "User Content": [
+                "Emails or Text Messages"
+            ],
+            "Search History": [
+                "Search History"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data",
+                "Gameplay Content",
+                "Customer Support",
+                "Other User Content"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

@@ -1,0 +1,67 @@
+{
+    "app_info": {
+        "App Name": "NOAA Buoys Marine Weather PRO4+",
+        "App Category": "Weather",
+        "URL": "https://apps.apple.com/us/app/noaa-buoys-marine-weather-pro/id1102078476",
+        "App ID": 1102078476,
+        "Price": "$27.99",
+        "App Rating": 3.0,
+        "No. of Ratings": 6,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Usage Data": [
+                "Other Usage Data"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Other Purposes": {
+            "Location": [
+                "Coarse Location"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Coarse Location"
+        ],
+        "Usage Data": [
+            "Other Usage Data"
+        ],
+        "Diagnostics": [
+            "Crash Data"
+        ]
+    }
+}

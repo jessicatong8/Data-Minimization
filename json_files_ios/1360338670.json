@@ -1,0 +1,79 @@
+{
+    "app_info": {
+        "App Name": "Supergreat - Live Shopping12+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/supergreat-live-shopping/id1360338670",
+        "App ID": 1360338670,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 1800,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Sensitive Info"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Contact Info"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "User Content": [
+                "Photos or Videos"
+            ]
+        },
+        "Analytics": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Contact Info": [
+                "Name"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Phone Number"
+            ]
+        }
+    },
+    "data_track": {}
+}

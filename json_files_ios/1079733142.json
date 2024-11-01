@@ -1,0 +1,83 @@
+{
+    "app_info": {
+        "App Name": "Richart4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/richart/id1079733142",
+        "App ID": 1079733142,
+        "Price": "Free",
+        "App Rating": 3.7,
+        "No. of Ratings": 78,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Financial Info",
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "Identifiers",
+            "Sensitive Info"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Location"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Financial Info": [
+                "Credit Info"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Credit Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Product Personalization": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Other Financial Info"
+            ]
+        }
+    },
+    "data_track": {
+        "Financial Info": [
+            "Credit Info"
+        ],
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ]
+    }
+}

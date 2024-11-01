@@ -1,0 +1,72 @@
+{
+    "app_info": {
+        "App Name": "SDGUN\u6c34\u5f39\u8bba\u202a\u575b\u202c17+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/sdgun%E6%B0%B4%E5%BC%B9%E8%AE%BA%E5%9D%9B/id1230834226",
+        "App ID": 1230834226,
+        "Price": "Free",
+        "App Rating": 3.7,
+        "No. of Ratings": 6,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "Product Personalization": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Phone Number"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data",
+                "Customer Support"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Other User Content"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

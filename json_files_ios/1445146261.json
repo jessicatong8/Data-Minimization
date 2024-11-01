@@ -1,0 +1,55 @@
+{
+    "app_info": {
+        "App Name": "deyaPay4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/deyapay/id1445146261",
+        "App ID": 1445146261,
+        "Price": "Free",
+        "App Rating": 3.4,
+        "No. of Ratings": 5,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "User Content"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "Contacts",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Phone Number"
+            ],
+            "User Content": [
+                "Emails or Text Messages"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Contacts": [
+                "Contacts"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

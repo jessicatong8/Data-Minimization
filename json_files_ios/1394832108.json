@@ -1,0 +1,78 @@
+{
+    "app_info": {
+        "App Name": "Troll Patrol9+",
+        "App Category": "Games",
+        "URL": "https://apps.apple.com/us/app/troll-patrol/id1394832108",
+        "App ID": 1394832108,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 40,
+        "Offers In-App Purchases": true,
+        "Age Rating": "9+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics",
+            "Other Data"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "User Content",
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ],
+            "Other Data": [
+                "Other Data Types"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "User Content": [
+                "Customer Support"
+            ]
+        },
+        "Other Purposes": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

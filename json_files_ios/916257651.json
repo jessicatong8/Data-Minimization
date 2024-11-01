@@ -1,0 +1,76 @@
+{
+    "app_info": {
+        "App Name": "\u6d77\u901a\u8bc1\u5238e\u6d77\u901a\u8d22-\u7092\u80a1\u3001\u80a1\u7968\u7406\u8d22\u9009\u6d77\u202a\u901a\u202c17+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/%E6%B5%B7%E9%80%9A%E8%AF%81%E5%88%B8e%E6%B5%B7%E9%80%9A%E8%B4%A2-%E7%82%92%E8%82%A1-%E8%82%A1%E7%A5%A8%E7%90%86%E8%B4%A2%E9%80%89%E6%B5%B7%E9%80%9A/id916257651",
+        "App ID": 916257651,
+        "Price": "Free",
+        "App Rating": 2.1,
+        "No. of Ratings": 24,
+        "Offers In-App Purchases": true,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "User Content",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "User Content",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "User Content": [
+                "Audio Data",
+                "Other User Content"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "app_info": {
+        "App Name": "Visa Airport Companion4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/visa-airport-companion/id1291608009",
+        "App ID": 1291608009,
+        "Price": "Free",
+        "App Rating": 1.6,
+        "No. of Ratings": 46,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ]
+        }
+    },
+    "data_track": {}
+}

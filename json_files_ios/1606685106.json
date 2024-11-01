@@ -1,0 +1,76 @@
+{
+    "app_info": {
+        "App Name": "Path to Nowhere12+",
+        "App Category": "Games",
+        "URL": "https://apps.apple.com/us/app/path-to-nowhere/id1606685106",
+        "App ID": 1606685106,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 5100,
+        "Offers In-App Purchases": true,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers",
+            "Diagnostics"
+        ],
+        "Data Linked to You": [
+            "Identifiers",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "User Content"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Performance Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data",
+                "Gameplay Content",
+                "Customer Support"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Photos or Videos",
+                "Audio Data",
+                "Gameplay Content",
+                "Customer Support"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "User ID",
+            "Device ID"
+        ],
+        "Diagnostics": [
+            "Performance Data"
+        ]
+    }
+}

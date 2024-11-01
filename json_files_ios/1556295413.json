@@ -1,0 +1,72 @@
+{
+    "app_info": {
+        "App Name": "Ackoo | Shop & Earn Cashback4+",
+        "App Category": "Shopping",
+        "URL": "https://apps.apple.com/us/app/ackoo-shop-earn-cashback/id1556295413",
+        "App ID": 1556295413,
+        "Price": "Free",
+        "App Rating": 4.2,
+        "No. of Ratings": 47,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Purchases",
+            "Contact Info",
+            "User Content",
+            "Browsing History",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Customer Support"
+            ],
+            "Browsing History": [
+                "Browsing History"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Product Personalization": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Diagnostics": [
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

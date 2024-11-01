@@ -1,0 +1,72 @@
+{
+    "app_info": {
+        "App Name": "Go - Vibe17+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/go-vibe/id1567206147",
+        "App ID": 1567206147,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 5,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location"
+        ],
+        "Data Linked to You": [
+            "Location"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Location",
+            "User Content"
+        ]
+    },
+    "data_linked": {
+        "Developer's Advertising or Marketing": {
+            "Location": [
+                "Precise Location"
+            ]
+        },
+        "Analytics": {
+            "Location": [
+                "Precise Location"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Precise Location"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ]
+        },
+        "Other Purposes": {
+            "Location": [
+                "Precise Location"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Other Purposes": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Location": [
+                "Coarse Location"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Precise Location"
+        ]
+    }
+}

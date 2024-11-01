@@ -1,0 +1,71 @@
+{
+    "app_info": {
+        "App Name": "\u9053\u306e\u99c5\u30a2\u30d7\u30ea \u5fb9\u5e95\u30ac\u30a4\u202a\u30c9\u202c4+",
+        "App Category": "Navigation",
+        "URL": "https://apps.apple.com/us/app/%E9%81%93%E3%81%AE%E9%A7%85%E3%82%A2%E3%83%97%E3%83%AA-%E5%BE%B9%E5%BA%95%E3%82%AC%E3%82%A4%E3%83%89/id1375284238",
+        "App ID": 1375284238,
+        "Price": "Free",
+        "App Rating": 0.0,
+        "No. of Ratings": 0,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Search History",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Search History": [
+                "Search History"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

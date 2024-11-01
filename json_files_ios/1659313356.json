@@ -1,0 +1,58 @@
+{
+    "app_info": {
+        "App Name": "Epipal: Seizure Alert12+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/epipal-seizure-alert/id1659313356",
+        "App ID": 1659313356,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 16,
+        "Offers In-App Purchases": true,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Purchases",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Purchases": [
+                "Purchase History"
+            ]
+        }
+    },
+    "data_track": {}
+}

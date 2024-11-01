@@ -1,0 +1,95 @@
+{
+    "app_info": {
+        "App Name": "\u5927\u667a\u6167-\u7092\u80a1\u7968\u9009\u7406\u8d22\u505a\u6295\u8d44\u4ea4\u202a\u6613\u202c4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/%E5%A4%A7%E6%99%BA%E6%85%A7-%E7%82%92%E8%82%A1%E7%A5%A8%E9%80%89%E7%90%86%E8%B4%A2%E5%81%9A%E6%8A%95%E8%B5%84%E4%BA%A4%E6%98%93/id666606316",
+        "App ID": 666606316,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 73,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Contacts",
+            "Identifiers",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Developer's Advertising or Marketing": {
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Product Personalization": {
+            "Contacts": [
+                "Contacts"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Product Personalization": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "User ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Usage Data": [
+            "Advertising Data"
+        ]
+    }
+}

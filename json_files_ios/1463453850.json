@@ -1,0 +1,53 @@
+{
+    "app_info": {
+        "App Name": "Saugus USD4+",
+        "App Category": "Education",
+        "URL": "https://apps.apple.com/us/app/saugus-usd/id1463453850",
+        "App ID": 1463453850,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 18,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_track": {}
+}

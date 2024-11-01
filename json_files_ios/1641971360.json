@@ -1,0 +1,58 @@
+{
+    "app_info": {
+        "App Name": "Go & Give4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/go-give/id1641971360",
+        "App ID": 1641971360,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 8,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Contact Info",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Identifiers"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data"
+            ]
+        },
+        "Product Personalization": {
+            "Diagnostics": [
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ]
+        }
+    },
+    "data_track": {}
+}

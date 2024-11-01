@@ -1,0 +1,49 @@
+{
+    "app_info": {
+        "App Name": "Tuktuk Ridesharing4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/tuktuk-ridesharing/id1588579592",
+        "App ID": 1588579592,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 17,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_track": {}
+}

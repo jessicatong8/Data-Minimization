@@ -1,0 +1,65 @@
+{
+    "app_info": {
+        "App Name": "GDm-Health12+",
+        "App Category": "Medical",
+        "URL": "https://apps.apple.com/us/app/gdm-health/id1421840751",
+        "App ID": 1421840751,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 15,
+        "Offers In-App Purchases": false,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Diagnostics"
+        ],
+        "Data Linked to You": [
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Health & Fitness",
+            "Identifiers",
+            "Sensitive Info",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Health & Fitness": [
+                "Health"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "Other Purposes": {
+            "Health & Fitness": [
+                "Health"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_track": {
+        "Diagnostics": [
+            "Other Diagnostic Data"
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "app_info": {
+        "App Name": "TGI Fridays US17+",
+        "App Category": "Food & Drink",
+        "URL": "https://apps.apple.com/us/app/tgi-fridays-us/id506485378",
+        "App ID": 506485378,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 61500,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location"
+        ],
+        "Data Linked to You": [
+            "Location"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "Identifiers"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Coarse Location"
+        ]
+    }
+}

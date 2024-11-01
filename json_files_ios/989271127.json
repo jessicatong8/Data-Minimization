@@ -1,0 +1,55 @@
+{
+    "app_info": {
+        "App Name": "RideYellow - Your taxi app4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/rideyellow-your-taxi-app/id989271127",
+        "App ID": 989271127,
+        "Price": "Free",
+        "App Rating": 2.0,
+        "No. of Ratings": 305,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contact Info",
+            "Usage Data"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Phone Number"
+            ]
+        },
+        "Other Purposes": {
+            "Financial Info": [
+                "Payment Info"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Other Usage Data"
+            ]
+        },
+        "Other Purposes": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name"
+            ]
+        }
+    },
+    "data_track": {}
+}

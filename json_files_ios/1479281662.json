@@ -1,0 +1,52 @@
+{
+    "app_info": {
+        "App Name": "RedSOS: 24/7 Emergency Service4+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/redsos-24-7-emergency-service/id1479281662",
+        "App ID": 1479281662,
+        "Price": "Free",
+        "App Rating": 3.4,
+        "No. of Ratings": 16,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location"
+        ],
+        "Data Linked to You": [
+            "Location"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Location": [
+                "Precise Location"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number",
+                "Other User Contact Info"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Precise Location"
+        ]
+    }
+}

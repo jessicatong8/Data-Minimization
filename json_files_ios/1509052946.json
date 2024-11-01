@@ -1,0 +1,60 @@
+{
+    "app_info": {
+        "App Name": "Shake - A social network17+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/shake-a-social-network/id1509052946",
+        "App ID": 1509052946,
+        "Price": "Free",
+        "App Rating": 5.0,
+        "No. of Ratings": 1,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location"
+        ],
+        "Data Linked to You": [
+            "Location",
+            "Contact Info",
+            "User Content"
+        ],
+        "Data Not Linked to You": [
+            "User Content"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Product Personalization": {
+            "User Content": [
+                "Emails or Text Messages",
+                "Audio Data"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Emails or Text Messages",
+                "Audio Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Coarse Location"
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "app_info": {
+        "App Name": "BEERMKR17+",
+        "App Category": "Food & Drink",
+        "URL": "https://apps.apple.com/us/app/beermkr/id1473456944",
+        "App ID": 1473456944,
+        "Price": "Free",
+        "App Rating": 4.2,
+        "No. of Ratings": 13,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Financial Info"
+        ],
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ]
+        }
+    },
+    "data_track": {
+        "Financial Info": [
+            "Payment Info"
+        ]
+    }
+}

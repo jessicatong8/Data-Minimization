@@ -1,0 +1,50 @@
+{
+    "app_info": {
+        "App Name": "Daily Spend - Budget & Save4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/daily-spend-budget-save/id1602797505",
+        "App ID": 1602797505,
+        "Price": "Free",
+        "App Rating": 4.8,
+        "No. of Ratings": 4,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Other Financial Info"
+            ],
+            "Contact Info": [
+                "Email Address"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

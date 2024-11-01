@@ -1,0 +1,46 @@
+{
+    "app_info": {
+        "App Name": "Outside - weather at a glance4+",
+        "App Category": "Weather",
+        "URL": "https://apps.apple.com/us/app/outside-weather-at-a-glance/id1075694114",
+        "App ID": 1075694114,
+        "Price": "$0.99",
+        "App Rating": 4.6,
+        "No. of Ratings": 41,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Diagnostics"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Identifiers"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_track": {}
+}

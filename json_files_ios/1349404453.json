@@ -1,0 +1,65 @@
+{
+    "app_info": {
+        "App Name": "Mix\u00b7Mingle17+",
+        "App Category": "Social Networking",
+        "URL": "https://apps.apple.com/us/app/mix-mingle/id1349404453",
+        "App ID": 1349404453,
+        "Price": "Free",
+        "App Rating": 4.0,
+        "No. of Ratings": 3,
+        "Offers In-App Purchases": false,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location"
+        ],
+        "Data Linked to You": [
+            "Contact Info",
+            "User Content"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "User Content",
+            "Sensitive Info"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "User Content": [
+                "Photos or Videos"
+            ]
+        },
+        "App Functionality": {
+            "Contact Info": [
+                "Email Address",
+                "Name"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Product Personalization": {
+            "User Content": [
+                "Emails or Text Messages"
+            ],
+            "Sensitive Info": [
+                "Sensitive Info"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Precise Location",
+                "Coarse Location"
+            ],
+            "User Content": [
+                "Emails or Text Messages"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Coarse Location"
+        ]
+    }
+}

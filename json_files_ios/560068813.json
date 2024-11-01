@@ -1,0 +1,57 @@
+{
+    "app_info": {
+        "App Name": "\u8c46\u74e3\u9605\u202a\u8bfb\u202c12+",
+        "App Category": "Books",
+        "URL": "https://apps.apple.com/us/app/%E8%B1%86%E7%93%A3%E9%98%85%E8%AF%BB/id560068813",
+        "App ID": 560068813,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 1800,
+        "Offers In-App Purchases": true,
+        "Age Rating": "12+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Product Personalization": {
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "Product Personalization": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

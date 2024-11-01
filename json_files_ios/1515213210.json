@@ -1,0 +1,58 @@
+{
+    "app_info": {
+        "App Name": "icash Pay4+",
+        "App Category": "Finance",
+        "URL": "https://apps.apple.com/us/app/icash-pay/id1515213210",
+        "App ID": 1515213210,
+        "Price": "Free",
+        "App Rating": 3.5,
+        "No. of Ratings": 13,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "Contacts",
+            "User Content"
+        ],
+        "Data Not Linked to You": [
+            "User Content",
+            "Identifiers"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number",
+                "Other User Contact Info"
+            ],
+            "Contacts": [
+                "Contacts"
+            ],
+            "User Content": [
+                "Emails or Text Messages"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "User Content": [
+                "Photos or Videos"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        }
+    },
+    "data_track": {}
+}

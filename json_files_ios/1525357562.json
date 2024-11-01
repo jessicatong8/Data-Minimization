@@ -1,0 +1,52 @@
+{
+    "app_info": {
+        "App Name": "Nearpeer4+",
+        "App Category": "Education",
+        "URL": "https://apps.apple.com/us/app/nearpeer/id1525357562",
+        "App ID": 1525357562,
+        "Price": "Free",
+        "App Rating": 3.3,
+        "No. of Ratings": 4,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Financial Info",
+            "Contact Info",
+            "User Content"
+        ],
+        "Data Not Linked to You": [
+            "Contact Info",
+            "Identifiers"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Other User Contact Info"
+            ],
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_track": {}
+}

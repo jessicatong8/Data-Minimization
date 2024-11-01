@@ -1,0 +1,72 @@
+{
+    "app_info": {
+        "App Name": "\u842c\u5e74\u6b77\u9ec3\u6b77-\u85cd\u9db4\u65e5\u6b77\u7d93\u5178\u202a\u7248\u202c4+",
+        "App Category": "Weather",
+        "URL": "https://apps.apple.com/us/app/%E8%90%AC%E5%B9%B4%E6%AD%B7%E9%BB%83%E6%AD%B7-%E8%97%8D%E9%B6%B4%E6%97%A5%E6%AD%B7%E7%B6%93%E5%85%B8%E7%89%88/id394882663",
+        "App ID": 394882663,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 161,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location"
+        ],
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "Contact Info",
+            "Contacts",
+            "User Content",
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Location": [
+                "Precise Location"
+            ],
+            "Identifiers": [
+                "User ID"
+            ]
+        },
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "Contact Info": [
+                "Email Address",
+                "Phone Number"
+            ],
+            "Contacts": [
+                "Contacts"
+            ],
+            "User Content": [
+                "Photos or Videos"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Precise Location"
+        ]
+    }
+}

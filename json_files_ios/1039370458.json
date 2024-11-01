@@ -1,0 +1,51 @@
+{
+    "app_info": {
+        "App Name": "Gym Life - Workout Planner4+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/gym-life-workout-planner/id1039370458",
+        "App ID": 1039370458,
+        "Price": "Free",
+        "App Rating": 4.6,
+        "No. of Ratings": 1600,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Location"
+        ],
+        "Data Linked to You": [
+            "Location"
+        ],
+        "Data Not Linked to You": [
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Usage Data": [
+                "Product Interaction",
+                "Other Usage Data"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Location": [
+            "Coarse Location"
+        ]
+    }
+}

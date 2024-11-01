@@ -1,0 +1,53 @@
+{
+    "app_info": {
+        "App Name": "Fitbit to Apple Health Sync4+",
+        "App Category": "Health & Fitness",
+        "URL": "https://apps.apple.com/us/app/fitbit-to-apple-health-sync/id1134998522",
+        "App ID": 1134998522,
+        "Price": "Free",
+        "App Rating": 4.3,
+        "No. of Ratings": 14900,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {},
+    "data_not_linked": {
+        "Third-Party Advertising": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

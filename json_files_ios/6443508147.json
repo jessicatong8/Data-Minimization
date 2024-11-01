@@ -1,0 +1,45 @@
+{
+    "app_info": {
+        "App Name": "Authenticator App \u202a\u2122\u202c4+",
+        "App Category": "Utilities",
+        "URL": "https://apps.apple.com/us/app/authenticator-app/id6443508147",
+        "App ID": 6443508147,
+        "Price": "Free",
+        "App Rating": 4.2,
+        "No. of Ratings": 3400,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {},
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

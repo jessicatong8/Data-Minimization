@@ -1,0 +1,51 @@
+{
+    "app_info": {
+        "App Name": "Oklahoma Mobile ID4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/oklahoma-mobile-id/id1461045650",
+        "App ID": 1461045650,
+        "Price": "Free",
+        "App Rating": 4.7,
+        "No. of Ratings": 3100,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Linked to You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "User Content",
+            "Usage Data",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Identifiers": [
+                "User ID"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ],
+            "User Content": [
+                "Customer Support"
+            ],
+            "Usage Data": [
+                "Product Interaction"
+            ]
+        },
+        "App Functionality": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {}
+}

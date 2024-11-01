@@ -1,0 +1,44 @@
+{
+    "app_info": {
+        "App Name": "Authenticator App - 2FA, MFA4+",
+        "App Category": "Utilities",
+        "URL": "https://apps.apple.com/us/app/authenticator-app-2fa-mfa/id1625466768",
+        "App ID": 1625466768,
+        "Price": "Free",
+        "App Rating": 4.1,
+        "No. of Ratings": 57,
+        "Offers In-App Purchases": true,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Identifiers"
+        ],
+        "Data Not Linked to You": [
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {},
+    "data_not_linked": {
+        "Analytics": {
+            "Identifiers": [
+                "Device ID"
+            ]
+        },
+        "App Functionality": {
+            "Identifiers": [
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Identifiers": [
+            "Device ID"
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "app_info": {
+        "App Name": "Azul4+",
+        "App Category": "Travel",
+        "URL": "https://apps.apple.com/us/app/azul/id690105616",
+        "App ID": 690105616,
+        "Price": "Free",
+        "App Rating": 4.0,
+        "No. of Ratings": 826,
+        "Offers In-App Purchases": false,
+        "Age Rating": "4+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Diagnostics"
+        ],
+        "Data Linked to You": [
+            "Contact Info"
+        ],
+        "Data Not Linked to You": [
+            "Financial Info",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "App Functionality": {
+            "Contact Info": [
+                "Physical Address",
+                "Email Address",
+                "Name",
+                "Phone Number",
+                "Other User Contact Info"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        },
+        "App Functionality": {
+            "Financial Info": [
+                "Payment Info"
+            ],
+            "Diagnostics": [
+                "Crash Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Diagnostics": [
+            "Crash Data"
+        ]
+    }
+}

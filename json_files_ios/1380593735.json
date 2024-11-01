@@ -1,0 +1,78 @@
+{
+    "app_info": {
+        "App Name": "\u6fe1\u6cab\u6c5f\u202a\u6e56\u202c17+",
+        "App Category": "Games",
+        "URL": "https://apps.apple.com/us/app/%E6%BF%A1%E6%B2%AB%E6%B1%9F%E6%B9%96/id1380593735",
+        "App ID": 1380593735,
+        "Price": "Free",
+        "App Rating": 4.5,
+        "No. of Ratings": 34,
+        "Offers In-App Purchases": true,
+        "Age Rating": "17+",
+        "Kids": false
+    },
+    "compact_dict": {
+        "Data Used to Track You": [
+            "Purchases",
+            "Location",
+            "Usage Data"
+        ],
+        "Data Linked to You": [
+            "Purchases",
+            "Usage Data"
+        ],
+        "Data Not Linked to You": [
+            "Location",
+            "User Content",
+            "Identifiers",
+            "Diagnostics"
+        ]
+    },
+    "data_linked": {
+        "Third-Party Advertising": {
+            "Purchases": [
+                "Purchase History"
+            ],
+            "Usage Data": [
+                "Advertising Data"
+            ]
+        },
+        "Analytics": {
+            "Purchases": [
+                "Purchase History"
+            ]
+        }
+    },
+    "data_not_linked": {
+        "Analytics": {
+            "Location": [
+                "Coarse Location"
+            ]
+        },
+        "App Functionality": {
+            "User Content": [
+                "Gameplay Content"
+            ],
+            "Identifiers": [
+                "User ID",
+                "Device ID"
+            ],
+            "Diagnostics": [
+                "Crash Data",
+                "Performance Data",
+                "Other Diagnostic Data"
+            ]
+        }
+    },
+    "data_track": {
+        "Purchases": [
+            "Purchase History"
+        ],
+        "Location": [
+            "Coarse Location"
+        ],
+        "Usage Data": [
+            "Advertising Data"
+        ]
+    }
+}
