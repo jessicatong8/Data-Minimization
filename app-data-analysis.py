@@ -24,8 +24,9 @@ def get_files(directory):
 
 def parse_files(files_list, out_filename):
     """
-    :param files_list: (list): List of files to be parsed.
-    :return: (list): List of dictionaries, where each dictionary contains the data from one json file.
+    :param files_list: List of filenames
+    :param out_filename: (string): Name of the output json file.
+    :return: (list): List of dictionaries containing app data from the json files.
     """
 
     # list to store dictionaries
@@ -45,14 +46,17 @@ def parse_files(files_list, out_filename):
             print(jsonfile)
             data_list.append(data)
     
+    # write list of dictionaries to a new json file
     with open(out_filename, "w") as file:
         json.dump(data_list, file)
 
     return data_list
 
-def top_categories(json_file):
+def categories(json_file, out_filename):
     """
-    :param data_list: (list): List of dictionaries containing app data.
+    counts apps by category
+    :param json_file: (string): Name of json file containing app data.
+    :param out_filename: (string): Name of the output json file.
     :return: (dict): Dictionary where keys are categories and values are the number of apps in that category.
     """
     # load json file to dictionary
@@ -73,6 +77,10 @@ def top_categories(json_file):
     # sorts dictionary by value (increasing rating)
     # Source: https://realpython.com/sort-python-dictionary/
     category_dict = dict(sorted(category_dict.items(), key=lambda item: item[1], reverse=True))
+
+    # write sorted dictionary to a new json file
+    with open(out_filename, "w") as file:
+        json.dump(category_dict, file)
     
     return category_dict
 
@@ -95,8 +103,8 @@ def main():
     #check the length is accurate and every dictionary has been added
     print(len(data_list))
 
-    print(top_categories("ios_apps.json"))
-    print(top_categories("android_apps.json"))
+    print(categories("ios_apps.json", "ios_categories.json"))
+    print(categories("android_apps.json", "android_categories.json"))
 
 
 
