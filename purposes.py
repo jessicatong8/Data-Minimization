@@ -2,66 +2,61 @@ from apps import *
 import pandas as pd
 
 
-def purposes(json_file, out_filename):
-    # load json file to list of apps
-    app_list = load_json(json_file)
+def purposes(in_files, categories, out_file):
+    """
+    :param in_files: (list) list of filenames (strings) for json files with app info
+    :param categories: (list) list of category names (strings) corresponding to files
+    :return: (df) dataframe containing number of apps collecting data for each purpose by category
+    """
+    # list to store dataframes for each category
+    dataframes = []
 
-    #print(type(data))
-    purposes_dict = {}
+    # iterate over all categories
+    for i in range(len(in_files)):
+        # load json file to list of apps
+        app_list = load_json(in_files[i])
 
-    for app in app_list:
-        for purpose in app["data_linked"].keys():
-        
-            if purpose not in purposes_dict:
-                purposes_dict[purpose] = 1
+        purposes_dict = {}
 
-            else:
-                purposes_dict[purpose] += 1
-        
-        if app["data_track"]:
-            if "data_track" not in purposes_dict:
-                purposes_dict["data_track"] = 1
+        for app in app_list:
+            for purpose in app["data_linked"].keys():
             
-            else:
-                purposes_dict["data_track"] += 1
+                if purpose not in purposes_dict:
+                    purposes_dict[purpose] = 1
 
-    # sorts dictionary by value (increasing rating)
-    # Source: https://realpython.com/sort-python-dictionary/
-    purposes_dict = dict(sorted(purposes_dict.items(), key=lambda item: item[1], reverse=True))
+                else:
+                    purposes_dict[purpose] += 1
+            
+            if app["data_track"]:
+                if "Tracking" not in purposes_dict:
+                    purposes_dict["Tracking"] = 1
+                
+                else:
+                    purposes_dict["Tracking"] += 1
 
-    # write sorted dictionary to a new json file
-    dump_json(purposes_dict, out_filename)
+        # sorts dictionary by value (increasing rating)
+        # Source: https://realpython.com/sort-python-dictionary/
+        purposes_dict = dict(sorted(purposes_dict.items(), key=lambda item: item[1], reverse=True))
 
-    df = pd.DataFrame(purposes_dict, index=[0])
-    df.insert(0, 'Category', 'Games')
-    print(df)
-    return purposes_dict
+        # create a dataframe from dictionary for each category
+        df = pd.DataFrame(purposes_dict, index=[0])
+        # add column for category name
+        df.insert(0, 'Category', categories[i])
+        # add dataframe to list of dataframes for all categories
+        dataframes.append(df)
+   
+    # combine all dataframes
+    purposes_by_category = pd.concat(dataframes)
 
-top_categories = top_categories(load_json('ios_categories.json'))
+    # save dataframe to csv file
+    purposes_by_category.to_csv(out_file, index = False)
 
-# #get list of purposes for all ios game apps
-# print(purposes("ios_games.json","ios_games_purposes.json"))
-# #get list of purposes for all ios heath & fitness apps
-# print(purposes("ios_health.json","ios_health_purposes.json"))
-# #get list of purposes for all ios lifestyle apps
-# print(purposes("ios_lifestyle.json","ios_lifestyle_purposes.json"))
-# #get list of purposes for all ios shopping apps
-# print(purposes("ios_shopping.json","ios_shopping_purposes.json"))
-# #get list of purposes for all ios travel apps
-# print(purposes("ios_travel.json","ios_travel_purposes.json"))
-# #get list of purposes for all ios app types
-# print(purposes("ios_apps.json","ios_purposes.json"))
+    return purposes_by_category
 
-#get list of purposes for all ios game apps
-(purposes("ios_games.json","ios_games_purposes.json"))
-#get list of purposes for all ios heath & fitness apps
-(purposes("ios_health.json","ios_health_purposes.json"))
-#get list of purposes for all ios lifestyle apps
-(purposes("ios_lifestyle.json","ios_lifestyle_purposes.json"))
-#get list of purposes for all ios shopping apps
-(purposes("ios_shopping.json","ios_shopping_purposes.json"))
-#get list of purposes for all ios travel apps
-(purposes("ios_travel.json","ios_travel_purposes.json"))
-#get list of purposes for all ios app types
-(purposes("ios_apps.json","ios_purposes.json"))
+in_files = ["ios_apps.json", "ios_games.json", "ios_lifestyle.json", "ios_shopping.json", "ios_travel.json", "ios_health.json"]
+top_categories = ["All Apps", 'Games', 'Lifestyle', 'Shopping', 'Travel', 'Health & Fitness']
+
+#top_categories = top_categories(load_json('ios_categories.json'), 5)
+
+print(purposes(in_files, top_categories, "ios_purposes.csv"))
 
