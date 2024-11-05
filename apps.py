@@ -3,12 +3,20 @@ import os
 
 
 def load_json(filename):
-     # load json file to dictionary
+    """
+    :param filename: (string): Name of the json file.
+    :return: object containing the data from the json file.
+    """
     with open(filename, 'r') as file:
         data = json.load(file)
     return data
 
 def dump_json(data, filename):
+     """
+     :param data: (object) Data to be saved in json format.
+     :param filename: (string): Name of the output json file.
+     :return: (None) data is saved in the specified json file.
+     """
      with open(filename, "w") as file:
         json.dump(data, file)
 
@@ -98,6 +106,12 @@ def top_categories(categories, num):
 
 
 def group_by_category(json_file, category, out_filename):
+    """
+    :param json_file: (string): Name of json file containing app data.
+    :param category: (string): Category to group by.
+    :param out_filename: (string): Name of the output json file to write to.
+    :return: (list): List of dictionaries containing app data from the json files that belong to the specified category.
+    """
     # load json file to dictionary
     app_list = load_json(json_file)
 
@@ -141,33 +155,14 @@ def main():
 
     """
     
-    ios_categories = categories("ios_apps.json", "ios_categories.json")
-    #android_categories = categories("android_apps.json", "android_categories.json")
-    #check the 5 top categories are printed for ios apps
-    top_ios_categories = top_categories(ios_categories, 5)
-    print(top_ios_categories)
-
-    grouped = None
-    #check the app info is grouped together for all ios game apps
-    grouped = group_by_category("ios_apps.json", "Games", "ios_games.json")
-    print(len(grouped))
-
-    #check the app info is grouped together for all ios lifestyle apps
-    grouped = group_by_category("ios_apps.json", "Lifestyle", "ios_lifestyle.json")
-    print(len(grouped))
-
-    #check the app info is grouped together for all ios shopping apps
-    grouped = group_by_category("ios_apps.json", "Shopping", "ios_shopping.json")
-    print(len(grouped))
-
-    #check the app info is grouped together for all ios travel apps
-    grouped = group_by_category("ios_apps.json", "Travel", "ios_travel.json")
-    print(len(grouped))
-
-    #check the app info is grouped together for all ios health & fitness apps
-    grouped = group_by_category("ios_apps.json", "Health & Fitness", "ios_health.json")
-    print(len(grouped))
+    top_categories = ['Games', 'Lifestyle', 'Shopping', 'Travel', 'Health & Fitness']
+    out_files = ["ios_games.json", "ios_lifestyle.json", "ios_shopping.json", "ios_travel.json", "ios_health.json"]
     
+    # group apps by category into json files
+    for i in range(len(top_categories)):
+        grouped = group_by_category("ios_apps.json", top_categories[i], out_files[i])
+        # check appropriate number of apps have been grouped together
+        print(len(grouped))
 
 if __name__ == "__main__":
     main()
