@@ -1,6 +1,7 @@
 import json
 import os
 import pandas as pd
+import numpy as np
 
 
 def get_files(directory):
@@ -43,14 +44,22 @@ def parse_files(files_list, out_filename):
             """
             data = json.load(file)
             # add to list 
-            print(jsonfile)
+            #print(jsonfile)
+            np.set_printoptions(threshold=np.inf)
+            df = pd.DataFrame(data)
+            print(data)
+            print(df)
             data_list.append(data)
+            df.to_csv('test.csv', index=False) 
+
     
     # write list of dictionaries to a new json file
     with open(out_filename, "w") as file:
         json.dump(data_list, file)
 
     return data_list
+files_list = get_files("json_files_ios")
+parse_files(files_list,"test")
 
 def categories(json_file, out_filename):
     """
@@ -108,5 +117,5 @@ def main():
 
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
