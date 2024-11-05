@@ -5,7 +5,7 @@ import os
 def load_json(filename):
      # load json file to dictionary
     with open(filename, 'r') as file:
-        data = json.load(filename)
+        data = json.load(file)
     return data
 
 def dump_json(data, filename):
