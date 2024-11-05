@@ -16,17 +16,17 @@ def purposes(in_files, categories, out_file):
         # load json file to list of apps
         app_list = load_json(in_files[i])
 
+        # dictionary to store number of apps collecting data for each purpose
         purposes_dict = {}
 
+        # iterate over all apps in the current category and count the number of apps collecting data for each purpose
         for app in app_list:
             for purpose in app["data_linked"].keys():
-            
                 if purpose not in purposes_dict:
                     purposes_dict[purpose] = 1
 
                 else:
                     purposes_dict[purpose] += 1
-            
             if app["data_track"]:
                 if "Tracking" not in purposes_dict:
                     purposes_dict["Tracking"] = 1
@@ -55,8 +55,5 @@ def purposes(in_files, categories, out_file):
 
 in_files = ["ios_apps.json", "ios_games.json", "ios_lifestyle.json", "ios_shopping.json", "ios_travel.json", "ios_health.json"]
 top_categories = ["All Apps", 'Games', 'Lifestyle', 'Shopping', 'Travel', 'Health & Fitness']
-
-#top_categories = top_categories(load_json('ios_categories.json'), 5)
-
 print(purposes(in_files, top_categories, "ios_purposes.csv"))
 
