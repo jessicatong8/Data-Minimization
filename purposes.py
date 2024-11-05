@@ -1,4 +1,4 @@
-from apps import load_json, dump_json
+from apps import *
 import pandas as pd
 
 
@@ -33,8 +33,11 @@ def purposes(json_file, out_filename):
     dump_json(purposes_dict, out_filename)
 
     df = pd.DataFrame(purposes_dict, index=[0])
+    df.insert(0, 'Category', 'Games')
     print(df)
     return purposes_dict
+
+top_categories = top_categories(load_json('ios_categories.json'))
 
 # #get list of purposes for all ios game apps
 # print(purposes("ios_games.json","ios_games_purposes.json"))
