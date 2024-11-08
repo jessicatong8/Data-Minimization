@@ -12,35 +12,55 @@ def data_types(in_file, out_file):
     # load json file to list of apps
     app_list = load_json(in_file)
 
-    # dictionary to store number of apps collecting data for each purpose
+    # dictionary {purpose: {datatype: count}}
     dict1 = {}
 
     # iterate over all apps in the current category and count the number of apps collecting data for each purpose
     for app in app_list:
-        for purpose in app["data_linked"].keys():
+        #print("app")
+        for purpose in app["data_linked"]:
+            # dictionary {datatype: count}
             dict2 = {}
             #print("Purpose:", purpose)
-            for broad_data_type in app["data_linked"].values():
-                #print("Broad Data Type: ", broad_data_type)
+            #print(app["data_linked"])
+            for broad_data_type in app["data_linked"][purpose]:
+                #print("Broad Data Type:", broad_data_type)
                 #print(type(broad_data_type.values()))
-                for key in broad_data_type.keys():
-                    for specific_data_type in broad_data_type[key]:
-                        #print(specific_data_type)
-                        if specific_data_type not in dict2:
-                            dict2[specific_data_type] = 1
-                        else:
-                            dict2[specific_data_type] += 1
-       
-            for key in dict2:
-                if key in dict1:
-                    dict1[key] = dict1[key] + dict2[key]
-                else:
-                    dict1[key] = dict2[key]
-    
-    print(dict1)
+                for specific_data_type in app["data_linked"][purpose][broad_data_type]:
+                    #print("Specific Data Type:", specific_data_type)
+                    #print(app["data_linked"][purpose][broad_data_type])
+                    if specific_data_type not in dict2:
+                        dict2[specific_data_type] = 1
+                    else:
+                        dict2[specific_data_type] += 1
+                #print(dict2)
 
-        #break
-        
+            #print("Purpose:", purpose, "Data Types: ", dict2)
+
+            # add dict2 into dict1
+            # if purpose already in dict1
+            if purpose in dict1:
+                # for every datatype in dict2
+                for datatype in dict2:
+                    # if datatype already in purpose of dict1
+                    if datatype in dict1[purpose]:
+                        # add count to existing count
+                        dict1[purpose][datatype] = dict1[purpose][datatype] + dict2[datatype]
+                    else:
+                        # create new datatype:count item for that purpose
+                        dict1[purpose][datatype] = dict2[datatype]
+            # if purpose not in dict1, create a new purpose with dict2
+            else:
+                dict1[purpose] = dict2
+
+            #print(dict2)
+            #print(dict1)
+            
+    # write dictionary to a new json file
+    dump_json(dict1, out_file)
+
+    return dict1
+
             # if app["data_track"]:
             #     if "Tracking" not in purposes_dict:
             #         purposes_dict["Tracking"] = 1
@@ -68,14 +88,9 @@ def data_types(in_file, out_file):
     # return purposes_by_category
 
 
-df = pd.read_csv('ios_data_types.csv')
-
-
-
-# in_files = ["ios_apps.json", "ios_games.json", "ios_lifestyle.json", "ios_shopping.json", "ios_travel.json", "ios_health.json"]
-# top_categories = ["All Apps", 'Games', 'Lifestyle', 'Shopping', 'Travel', 'Health & Fitness']
-# data_types(in_files, top_categories, "ios_data_types.csv")
+#df = pd.read_csv('ios_data_types.csv')
 
 
 in_file = "ios_apps.json"
-data_types(in_file, "test.csv")
+out_file = "ios_data.json"
+print(data_types(in_file, out_file))
