@@ -206,16 +206,20 @@ def main():
     #categories("ios", "ios_apps.json", "ios_categories_ratings.json")
     #top_apps("ios_apps.json", "ios_top_apps_ratings.json")
     #categories("android", "android_apps.json", "android_categories_ratings.json")
-    top_apps("android", "android_apps.json", "android_top_apps_ratings.json")
+    #top_apps("android", "android_apps.json", "android_top_apps_ratings.json")
     
-    # top_categories = ['Games', 'Lifestyle', 'Shopping', 'Travel', 'Health & Fitness']
-    # out_files = ["ios_games.json", "ios_lifestyle.json", "ios_shopping.json", "ios_travel.json", "ios_health.json"]
+    top_categories = ['Games', 'Finance', 'Shopping', 'Photo & Video', 'Food & Drink']
+    category_files = ["ios_games.json", "ios_finance.json", "ios_shopping.json", "ios_photovideo.json", "ios_fooddrink.json"]
+    category_app_files = ["ios_games_top_rating.json", "ios_finance_top_rating.json", "ios_shopping_top_rating.json", "ios_photovideo_top_rating.json", "ios_fooddrink_top_rating.json"]
 
     # # group apps by category into json files
     # for i in range(len(top_categories)):
-    #     grouped = group_by_category("ios_apps.json", top_categories[i], out_files[i])
+    #     grouped = group_by_category("ios_apps.json", top_categories[i], category_files[i])
     #     # check appropriate number of apps have been grouped together
     #     print(len(grouped))
+    
+    for i in range(len(category_files)):
+        top_apps("ios", category_files[i], category_app_files[i])
 
 if __name__ == "__main__":
     main()
