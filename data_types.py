@@ -1,5 +1,6 @@
 from apps import *
 import pandas as pd
+import csv
 
 
 def data_types(in_file, out_file):
@@ -61,36 +62,34 @@ def data_types(in_file, out_file):
 
     return dict1
 
-            # if app["data_track"]:
-            #     if "Tracking" not in purposes_dict:
-            #         purposes_dict["Tracking"] = 1
-                
-            #     else:
-            #         purposes_dict["Tracking"] += 1
+def datatype_table(in_file, out_file):
+     # load json file to list of apps
+    app_list = load_json(in_file)
 
-        # sorts dictionary by value (increasing rating)
-        # Source: https://realpython.com/sort-python-dictionary/
-        #data_type_dict = dict(sorted(purposes_dict.items(), key=lambda item: item[1], reverse=True))
+    # dictionary {purpose: {datatype: count}}
+    rows = {}
 
-        # # create a dataframe from dictionary for each category
-        # df = pd.DataFrame(purposes_dict, index=[0])
-        # # add column for category name
-        # df.insert(0, 'Category', categories[i])
-        # # add dataframe to list of dataframes for all categories
-        # dataframes.append(df)
-   
-    # # combine all dataframes
-    # purposes_by_category = pd.concat(dataframes)
+    # iterate over all apps in the current category and count the number of apps collecting data for each purpose
+    for app in app_list:
+        #print("app")
+        for purpose in app["data_linked"]:
+            if purpose not in rows:
+                rows[purpose] = []
+            for broad_data_type in app["data_linked"][purpose]:
+                for specific_data_type in app["data_linked"][purpose][broad_data_type]:
+                    if specific_data_type not in rows[purpose]:
+                        rows[purpose].append(specific_data_type)
+    print(rows)
+    for purpose in rows.keys():
+        rows[purpose].sort()
+    print(rows)
+    df = pd.DataFrame(rows)
+    # saving the dataframe
+    df.to_csv(out_file)
+    print(df)
 
-    # # save dataframe to csv file
-    # purposes_by_category.to_csv(out_file, index = False)
+# in_file = "ios_apps.json"
+# out_file = "ios_data.json"
+# print(data_types(in_file, out_file))
 
-    # return purposes_by_category
-
-
-#df = pd.read_csv('ios_data_types.csv')
-
-
-in_file = "ios_apps.json"
-out_file = "ios_data.json"
-print(data_types(in_file, out_file))
+datatype_table("ios_apps.json", "ios_data.csv")
