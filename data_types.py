@@ -5,9 +5,8 @@ import csv
 
 def data_types(in_file, out_file):
     """
-    :param in_files: (list) list of filenames (strings) for json files with app info
-    :param categories: (list) list of category names (strings) corresponding to files
-    :return: (df) dataframe containing number of apps collecting data for each purpose by category
+    :param in_file: json file containing app info
+    :return: json file containing dict of purpose: (datatype: num of apps collecting that data for that purpose)
     """
 
     # load json file to list of apps
@@ -16,7 +15,7 @@ def data_types(in_file, out_file):
     # dictionary {purpose: {datatype: count}}
     dict1 = {}
 
-    # iterate over all apps in the current category and count the number of apps collecting data for each purpose
+    # iterate over all apps and count the number of apps collecting data for each purpose
     for app in app_list:
         #print("app")
         for purpose in app["data_linked"]:
@@ -63,6 +62,10 @@ def data_types(in_file, out_file):
     return dict1
 
 def datatype_table(in_file, out_file):
+    """
+    :param in_file: json file containing app info
+    :return: csv file containing table of purpose: data types
+    """
      # load json file to list of apps
     app_list = load_json(in_file)
 
@@ -88,8 +91,68 @@ def datatype_table(in_file, out_file):
     df.to_csv(out_file)
     print(df)
 
+
+def datatype_percentByCategory(in_file, out_file, categories, purpose):
+    """
+    :param in_files: json file containing app info
+    :param categories: (list) list of category names (strings) corresponding to files
+    :return: (df) dataframe containing percentage of apps collecting each datatype for given purpose
+    """
+    # list to store dataframes for each category
+    dataframes = []
+
+    # load json file to list of apps
+    app_list = load_json(in_file)
+    
+    # iterate over all categories
+    for i in range(len(categories)):
+        # dictionary to store number of apps collecting each datatype
+        datatype_dict = {}
+        # count number of apps in each category collecting data for given purpose
+        num_apps = 0
+        # iterate over all apps in the current category and count the number of apps collecting each datatype for given purpose
+        for app in app_list:
+            if app["app_info"]["App Category"] == categories[i] and purpose in app["data_linked"].keys():
+                num_apps += 1
+                for broad_data_type in app["data_linked"][purpose]:
+                    for specific_data_type in app["data_linked"][purpose][broad_data_type]:
+                        if specific_data_type not in datatype_dict:
+                            datatype_dict[specific_data_type] = 1
+                        else:
+                            datatype_dict[specific_data_type] += 1
+
+
+        # calculate percentage of apps collecting data for each purpose
+        for datatype in datatype_dict:
+            datatype_dict[datatype] = round((datatype_dict[datatype] / num_apps), 4)
+
+        # create a dataframe from dictionary for each category
+        df = pd.DataFrame(datatype_dict, index=[0])
+        # add column for category name
+        df.insert(0, 'Category', categories[i])
+        # add dataframe to list of dataframes for all categories
+        dataframes.append(df)
+   
+    # combine all dataframes
+    merged_df = pd.concat(dataframes)
+
+    # save dataframe to csv file
+    merged_df.to_csv(out_file, index = False)
+
+    return merged_df
+
+
+categories = load_json("ios_categories_ratings.json")
+categories = list(categories.keys())
+
+print(datatype_percentByCategory("ios_apps.json", "data_types/Functionality_percentByCategory.csv", categories, "App Functionality"))
+print(datatype_percentByCategory("ios_apps.json", "data_types/ThirdAdvertising_percentByCategory.csv", categories, "Third-Party Advertising"))
+print(datatype_percentByCategory("ios_apps.json", "data_types/DevAdvertising_percentByCategory.csv", categories, "Developer's Advertising or Marketing"))
+print(datatype_percentByCategory("ios_apps.json", "data_types/Personalization_percentByCategory.csv", categories, "Product Personalization"))
+print(datatype_percentByCategory("ios_apps.json", "data_types/Analytics_percentByCategory.csv", categories, "Analytics"))
+
 # in_file = "ios_apps.json"
 # out_file = "ios_data.json"
 # print(data_types(in_file, out_file))
 
-datatype_table("ios_apps.json", "ios_data.csv")
+# datatype_table("ios_apps.json", "ios_data.csv")
