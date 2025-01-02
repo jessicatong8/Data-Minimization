@@ -135,7 +135,8 @@ def datatype_percentByCategory(in_file, out_file, categories, purpose):
    
     # combine all dataframes
     merged_df = pd.concat(dataframes)
-    merged_df = merged_df.reindex(sorted(df.columns), axis=1)
+    # sort dataframe by column names
+    merged_df = merged_df.sort_index(axis = 1)
     # shift 'Category' column to first position 
     first_column = merged_df.pop('Category') 
     merged_df.insert(0, 'Category', first_column) 
