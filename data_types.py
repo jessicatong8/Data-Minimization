@@ -151,9 +151,9 @@ categories = load_json("ios_categories_ratings.json")
 categories = list(categories.keys())
 
 print(datatype_percentByCategory("ios_apps.json", "data_types/Functionality_percentByCategory.csv", categories, "App Functionality"))
+print(datatype_percentByCategory("ios_apps.json", "data_types/Personalization_percentByCategory.csv", categories, "Product Personalization"))
 print(datatype_percentByCategory("ios_apps.json", "data_types/ThirdAdvertising_percentByCategory.csv", categories, "Third-Party Advertising"))
 print(datatype_percentByCategory("ios_apps.json", "data_types/DevAdvertising_percentByCategory.csv", categories, "Developer's Advertising or Marketing"))
-print(datatype_percentByCategory("ios_apps.json", "data_types/Personalization_percentByCategory.csv", categories, "Product Personalization"))
 print(datatype_percentByCategory("ios_apps.json", "data_types/Analytics_percentByCategory.csv", categories, "Analytics"))
 
 # in_file = "ios_apps.json"
