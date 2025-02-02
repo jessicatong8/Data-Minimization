@@ -161,7 +161,7 @@ def top_categories(categories, num):
     return list_categories
 
 
-def group_by_category(json_file, category, out_filename):
+def group_by_category(appstore, json_file, category, out_filename):
     """
     :param json_file: (string): Name of json file containing app data.
     :param category: (string): Category to group by.
@@ -172,11 +172,21 @@ def group_by_category(json_file, category, out_filename):
     app_list = load_json(json_file)
 
     category_sorted = []
+    if appstore == 'ios':
+        for app in app_list:
+            if app["app_info"]["App Category"] == category:
+                category_sorted.append(app)
+    elif appstore == 'android':
+        for app in app_list:
+            # print(app)
+            print(app["App category"])
+            if len(app["App category"]) < 1:
+                continue
+            elif len(app["App category"]) > 1 and category == "Games":
+                category_sorted.append(app)
+            elif app["App category"][0] == category:
+                    category_sorted.append(app)
 
-    for app in app_list:
-        if app["app_info"]["App Category"] == category:
-            category_sorted.append(app)
-    
     # write list of dictionaries to a new json file
     dump_json(category_sorted, out_filename)
         
@@ -208,18 +218,36 @@ def main():
     #categories("android", "android_apps.json", "android_categories_ratings.json")
     #top_apps("android", "android_apps.json", "android_top_apps_ratings.json")
     
-    top_categories = ['Games', 'Finance', 'Shopping', 'Photo & Video', 'Food & Drink']
-    category_files = ["ios_games.json", "ios_finance.json", "ios_shopping.json", "ios_photovideo.json", "ios_fooddrink.json"]
-    category_app_files = ["ios_games_top_rating.json", "ios_finance_top_rating.json", "ios_shopping_top_rating.json", "ios_photovideo_top_rating.json", "ios_fooddrink_top_rating.json"]
+    # # get top categories for ios and apps for ios
+    # top_categories = ['Games', 'Finance', 'Shopping', 'Photo & Video', 'Food & Drink']
+    # category_files = ["ios_games.json", "ios_finance.json", "ios_shopping.json", "ios_photovideo.json", "ios_fooddrink.json"]
+    # category_app_files = ["ios_games_top_rating.json", "ios_finance_top_rating.json", "ios_shopping_top_rating.json", "ios_photovideo_top_rating.json", "ios_fooddrink_top_rating.json"]
+
 
     # # group apps by category into json files
     # for i in range(len(top_categories)):
     #     grouped = group_by_category("ios_apps.json", top_categories[i], category_files[i])
     #     # check appropriate number of apps have been grouped together
     #     print(len(grouped))
+
+    # for i in range(len(category_files)):
+    #     top_apps("ios", category_files[i], category_app_files[i])
     
-    for i in range(len(category_files)):
-        top_apps("ios", category_files[i], category_app_files[i])
+    # Android top apps by category (rating)
+  
+
+    top_categories_android =  ['Games', 'Tools', 'Productivity', 'Communication', 'Music & Audio']
+    category_files_android = ["android_games.json", "android_tools.json", "android_productivity.json", "android_communication.json", "android_musicaudio.json"]
+    category_app_files = ["android_games_top_rating.json", "android_tools_top_rating.json", "android_productivity_top_rating.json", "android_communication_top_rating.json", "android_musicaudio_top_rating.json"]
+
+    # # group apps by category into json files
+    # for i in range(len(top_categories_android)):
+    #     grouped = group_by_category('android', "android_apps.json", top_categories_android[i], category_files_android[i])
+    #     # check appropriate number of apps have been grouped together
+    #     print(len(grouped))
+    
+    for i in range(len(category_files_android)):
+        top_apps("android", category_files_android[i], category_app_files[i])
 
 if __name__ == "__main__":
     main()
