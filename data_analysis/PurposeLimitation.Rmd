@@ -1,0 +1,74 @@
+---
+title: "PurposeLimitation"
+author: "Jessica Tong"
+date: "2025-04-27"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+df <- read.csv("data_analysis/User_PurposeLimitation_Values_Cleaned.csv")
+# setwd("/Users/jessicatong/Documents/DM Data Analysis test")
+```
+
+User Expectations
+
+```{r}
+userExpColumns <- c("UserExp.AF", "UserExp.PP", "UserExp.AM", "UserExp.AL")
+
+# Define the new labels
+labels <- c("Definitely yes", "Probably yes", "Not sure", "Probably no", "Definitely not")
+
+# Convert the numerical data to factor and assign the new labels
+
+for (col in userExpColumns) {
+    df[[col]] <- factor(df[[col]], levels = 1:5, labels = labels)
+}
+```
+
+```{r}
+par(mar = c(5, 10, 4, 2)) # margins bottom, left, top, right
+
+for (col in userExpColumns) {
+    print(table(df[[col]]))
+
+    barplot(
+        table(df[[col]]),
+        horiz = TRUE, # rotate bars horizontally
+        las = 1, # make axis labels horizontal
+        xlab = "Count", # label the x-axis
+        main = paste("User Expectations of Data Collection for ", col),
+        xlim = c(0, 200)
+    )
+}
+```
+
+User Requests
+
+```{r}
+userReqColumns <- c("Request.AF", "Request.PP", "Request.AM", "Request.AL")
+par(mar = c(5, 10, 4, 2)) # margins bottom, left, top, right
+
+
+for (col in userReqColumns) {
+    # Split the comma-separated values and unlist into a single vector
+    split_values <- unlist(strsplit(df[[col]], ","))
+    # Clean any leading/trailing whitespace from the split values
+    split_values <- trimws(split_values)
+    # Get the overall count of each value
+    request_count <- (table(split_values))
+    # Define new labels (in order: 1, 2, 3, ..., 8)
+    # new_labels <- c("Installation", "Using App", "Using Features", "Account", "Terms and Conditions", "Settings", "Opt-in", "Messaging Directly")
+    # names(request_count) <- new_labels
+    print(request_count)
+
+    barplot(
+        request_count,
+        horiz = TRUE, # rotate bars horizontally
+        las = 1, # make axis labels horizontal
+        xlab = "Count", # label the x-axis
+        main = paste("User Requests of Data Collection for ", col),
+        xlim = c(0, 250)
+    )
+}
+```

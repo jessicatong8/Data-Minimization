@@ -1,0 +1,72 @@
+---
+title: "DataMinimization"
+author: "Jessica Tong"
+date: "2025-04-27"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+df <- read.csv("data_analysis/User_DataMinimization_Labels_Cleaned.csv")
+# setwd("/Users/jessicatong/Documents/DM Data Analysis test")
+```
+
+```{r}
+dataTypeColumns <- c("App.Func", "Product.Pers", "Adv.Marketing", "Analytics")
+
+
+# Initialize an empty list to store the frequency tables for each column
+dataTypeTables <- list()
+
+# Loop through each column and create a frequency table
+for (col in dataTypeColumns) {
+    # Split the comma-separated values and unlist into a single vector
+    split_values <- unlist(strsplit(df[[col]], ","))
+    # Clean any leading/trailing whitespace from the split values
+    split_values <- trimws(split_values)
+    # Get the overall count of each value
+    dataType_count <- table(split_values)
+    # Store the frequency table in the list
+    dataTypeTables[[col]] <- dataType_count
+}
+
+# Now combine the frequency tables into a single data frame
+# First, ensure all frequency tables have the same row names (data types)
+allDataTypes <- unique(unlist(lapply(dataTypeTables, names)))
+
+# Initialize a new data frame to hold the final result
+final_df <- data.frame(matrix(ncol = length(dataTypeColumns), nrow = length(allDataTypes)))
+colnames(final_df) <- dataTypeColumns
+rownames(final_df) <- allDataTypes
+
+# Fill in the frequency counts for each data type and column
+for (col in dataTypeColumns) {
+    # Get the frequency table for the current column
+    dataType_count <- dataTypeTables[[col]]
+    # Add the counts to the final data frame (use 0 for missing data types)
+    final_df[rownames(dataType_count), col] <- dataType_count
+}
+
+# Replace NAs with 0 (for data types that don't appear in a column)
+final_df[is.na(final_df)] <- 0
+
+# Print the final data frame
+print(final_df)
+
+# Export the data frame to a CSV file
+write.csv(final_df, file = "User_DM_datatypes.csv", row.names = TRUE)
+```
+
+```{r}
+dataTypeColumns <- c("App.Func", "Product.Pers", "Adv.Marketing", "Analytics")
+
+for (col in dataTypeColumns) {
+    # Split the comma-separated values and unlist into a single vector
+    split_values <- unlist(strsplit(df[[col]], ","))
+    # Clean any leading/trailing whitespace from the split values
+    split_values <- trimws(split_values)
+    # Get the overall count of each value
+    dataType_count <- (table(split_values))
+    print(dataType_count)
+}
+```
