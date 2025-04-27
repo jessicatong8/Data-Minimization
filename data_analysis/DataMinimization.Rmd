@@ -7,8 +7,7 @@ output: pdf_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-df <- read.csv("data_analysis/User_DataMinimization_Labels_Cleaned.csv")
-# setwd("/Users/jessicatong/Documents/DM Data Analysis test")
+df <- read.csv("User_DataMinimization_Labels_Cleaned.csv")
 ```
 
 ```{r}
@@ -55,18 +54,4 @@ print(final_df)
 
 # Export the data frame to a CSV file
 write.csv(final_df, file = "User_DM_datatypes.csv", row.names = TRUE)
-```
-
-```{r}
-dataTypeColumns <- c("App.Func", "Product.Pers", "Adv.Marketing", "Analytics")
-
-for (col in dataTypeColumns) {
-    # Split the comma-separated values and unlist into a single vector
-    split_values <- unlist(strsplit(df[[col]], ","))
-    # Clean any leading/trailing whitespace from the split values
-    split_values <- trimws(split_values)
-    # Get the overall count of each value
-    dataType_count <- (table(split_values))
-    print(dataType_count)
-}
 ```

@@ -7,8 +7,7 @@ output: pdf_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-df <- read.csv("data_analysis/User_PurposeLimitation_Values_Cleaned.csv")
-# setwd("/Users/jessicatong/Documents/DM Data Analysis test")
+df <- read.csv("User_PurposeLimitation_Values_Cleaned.csv")
 ```
 
 User Expectations
