@@ -6,43 +6,119 @@ output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
 df <- read.csv("User_PurposeLimitation_Values_Cleaned.csv")
 ```
 
-User Expectations
-
 ```{r}
+
+#Clean data
+
 userExpColumns <- c("UserExp.AF", "UserExp.PP", "UserExp.AM", "UserExp.AL")
 
 # Define the new labels
 labels <- c("Definitely yes", "Probably yes", "Not sure", "Probably no", "Definitely not")
 
-# Convert the numerical data to factor and assign the new labels
-
-for (col in userExpColumns) {
-    df[[col]] <- factor(df[[col]], levels = 1:5, labels = labels)
-}
+# Convert the relevant columns to factor
+df <- df %>%
+  mutate(across(all_of(userExpColumns), ~ factor(., levels = 1:5, labels = labels)))
 ```
+
+#User Expectations overall
+
 
 ```{r}
-par(mar = c(5, 10, 4, 2)) # margins bottom, left, top, right
+#Reshape
+percent_long <- df %>%
+  pivot_longer(
+    cols = all_of(userExpColumns), 
+    names_to = "Purpose", 
+    values_to = "Response"
+  ) %>%
+  mutate(
+    Purpose = recode(Purpose,
+                     "UserExp.AF" = "App Functionality",
+                     "UserExp.PP" = "Product Personalization",
+                     "UserExp.AM" = "Advertising & Marketing",
+                     "UserExp.AL" = "Analytics")
+  ) %>%
+  group_by(Purpose, Response) %>%
+  summarise(Count = n(), .groups = "drop") %>%
+  group_by(Purpose) %>%
+  mutate(Percentage = (Count / sum(Count)) * 100) %>%
+  ungroup()
 
-for (col in userExpColumns) {
-    print(table(df[[col]]))
+# Order Response levels (optional but good)
+percent_long$Response <- factor(percent_long$Response, levels = labels)
 
-    barplot(
-        table(df[[col]]),
-        horiz = TRUE, # rotate bars horizontally
-        las = 1, # make axis labels horizontal
-        xlab = "Count", # label the x-axis
-        main = paste("User Expectations of Data Collection for ", col),
-        xlim = c(0, 200)
-    )
-}
+# Plot
+ggplot(percent_long, aes(x = Purpose, y = Percentage, fill = Response)) +
+  geom_bar(stat = "identity") +
+  geom_text(aes(label = round(Percentage, 1)),
+            position = position_stack(vjust = 0.5),
+            size = 3) +
+  labs(title = "User Expectations of Data Collection",
+       x = "Purpose",
+       y = "Percentage") +
+  theme_minimal() +
+  # theme(axis.text.x = element_text(angle = 45, hjust = 1)) + 
+  guides(fill = guide_legend(reverse = FALSE))  # optional: reverse legend
+
 ```
 
+#User Expectations by app
+
+
+```{r, fig.width=14, fig.height=5}
+#Reshape
+percent_long <- df %>%
+  pivot_longer(
+    cols = all_of(userExpColumns), 
+    names_to = "Purpose", 
+    values_to = "Response"
+  ) %>%
+  mutate(
+    Purpose = recode(Purpose,
+                     "UserExp.AF" = "App Functionality",
+                     "UserExp.PP" = "Product Personalization",
+                     "UserExp.AM" = "Advertising & Marketing",
+                     "UserExp.AL" = "Analytics")
+  ) %>%
+  group_by(AppCategory, Purpose, Response) %>%
+  summarise(Count = n(), .groups = "drop") %>%
+  group_by(AppCategory,Purpose) %>%
+  mutate(Percentage = (Count / sum(Count)) * 100) %>%
+  ungroup()
+
+# custom order for apps
+app_order <- c("game", "finance", "shopping", "photo and video", "food and drink")
+
+# Apply the custom order
+percent_long$AppCategory <- factor(percent_long$AppCategory, levels = app_order)
+
+# Order Response levels (optional but good)
+percent_long$Response <- factor(percent_long$Response, levels = labels)
+
+# Plot
+ggplot(percent_long, aes(x = Purpose, y = Percentage, fill = Response)) +
+  geom_bar(stat = "identity") +
+  geom_text(aes(label = round(Percentage, 1)),
+            position = position_stack(vjust = 0.5),
+            size = 3) +
+  labs(title = "User Expectations of Data Collection",
+       x = "Purpose",
+       y = "Percentage") +
+  theme_minimal() +
+   facet_wrap(~ AppCategory, nrow = 1) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) + 
+  guides(fill = guide_legend(reverse = FALSE))  # optional: reverse legend
+
+```
+
+
 User Requests
+
 
 ```{r}
 userReqColumns <- c("Request.AF", "Request.PP", "Request.AM", "Request.AL")
@@ -61,13 +137,24 @@ for (col in userReqColumns) {
     # names(request_count) <- new_labels
     print(request_count)
 
-    barplot(
-        request_count,
-        horiz = TRUE, # rotate bars horizontally
-        las = 1, # make axis labels horizontal
-        xlab = "Count", # label the x-axis
-        main = paste("User Requests of Data Collection for ", col),
-        xlim = c(0, 250)
-    )
+    # barplot(
+    #     request_count,
+    #     horiz = TRUE, # rotate bars horizontally
+    #     las = 1, # make axis labels horizontal
+    #     xlab = "Count", # label the x-axis
+    #     main = paste("User Requests of Data Collection for ", col),
+    #     xlim = c(0, 250)
+    # )
 }
+```
+
+```{r}
+kruskal.test( df$UserExp.AF~df$AppCategory)
+
+# Create a contingency table
+contingency_table <- table(df$UserExp.AF, df$AppCategory)
+
+# Perform chi-squared test
+chisq.test(contingency_table)
+
 ```
